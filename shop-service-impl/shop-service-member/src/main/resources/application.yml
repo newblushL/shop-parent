@@ -1,6 +1,11 @@
+####数据库配置
 spring:
   datasource:
     url: jdbc:mysql://172.16.49.129:3306/SpringCloud
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+####打印MyBatias日志
+logging:
+  level:
+    com.ll.member.mapper: DEBUG

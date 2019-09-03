@@ -3,9 +3,11 @@ package com.ll.member.service.impl;
 import com.alibaba.fastjson.JSONObject;
 import com.ll.base.BaseApiService;
 import com.ll.base.BaseResponse;
+import com.ll.core.bean.PropertyUtils;
 import com.ll.core.utils.MD5Util;
-import com.ll.entity.UserEntity;
+import com.ll.member.input.dto.UserInpDTO;
 import com.ll.member.mapper.UserMapper;
+import com.ll.member.mapper.entity.UserDO;
 import com.ll.member.service.MemberRegisterService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,20 +28,21 @@ public class MemberRegistServiceImpl extends BaseApiService<JSONObject> implemen
 
     @Transactional
     @Override
-    public BaseResponse<JSONObject> register(@RequestBody UserEntity userEntity,
+    public BaseResponse<JSONObject> register(@RequestBody UserInpDTO userInpDTO,
                                              String registCode) {
-        if (StringUtils.isBlank(userEntity.getUserName())) {
+        if (StringUtils.isBlank(userInpDTO.getUserName())) {
             return setResultError("用户名不能为空!");
         }
-        if (StringUtils.isBlank(userEntity.getMobile())) {
+        if (StringUtils.isBlank(userInpDTO.getMobile())) {
             return setResultError("手机号不能为空!");
         }
-        if (StringUtils.isBlank(userEntity.getPassword())) {
+        if (StringUtils.isBlank(userInpDTO.getPassword())) {
             return setResultError("密码不能为空!");
         }
-        String newPass = MD5Util.MD5(userEntity.getPassword());
-        userEntity.setPassword(newPass);
-        return userMapper.register(userEntity) > 0 ? setResultSuccess("注册成功") :
+        String newPass = MD5Util.MD5(userInpDTO.getPassword());
+        userInpDTO.setPassword(newPass);
+        UserDO userDO = PropertyUtils.dtoToDo(userInpDTO, UserDO.class);
+        return userMapper.register(userDO) > 0 ? setResultSuccess("注册成功") :
                 setResultError("注册失败");
     }
 }

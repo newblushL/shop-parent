@@ -1,6 +1,6 @@
 package com.ll.member.mapper;
 
-import com.ll.entity.UserEntity;
+import com.ll.member.mapper.entity.UserDO;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -16,8 +16,8 @@ public interface UserMapper {
 
 	@Insert("INSERT INTO `member` VALUES (null,#{mobile}, #{email}, #{password}, " +
 			"#{userName}, null, null, null, '1', null, null, null);")
-	int register(UserEntity userEntity);
+	int register(UserDO userDo);
 
 	@Select("SELECT * FROM member WHERE MOBILE=#{mobile};")
-	UserEntity existMobile(@Param("mobile") String mobile);
+	UserDO existMobile(@Param("mobile") String mobile);
 }

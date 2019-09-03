@@ -2,86 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90bee10c-46c4-45b2-aa3b-0f0304a4b2eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/target/classes/ll/entity/AppEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-entitys/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/shop-api-member-entity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/src/main/java/com/ll/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/shop-api-weixin-entity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/src/main/java/com/ll/entity/AppEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-eureka/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-eureka/target/classes/com/ll/AppEureka.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/shop-basics-springcloud-zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/com/ll/AppGateWay$DocumentationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/com/ll/AppGateWay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/target/classes/com/ll/weixin/service/WeiXinService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/AppMember.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/feign/WeiXinServiceFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/builder/AbstractBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/builder/ImageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/builder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/config/WxMpConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/config/WxMpProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/controller/WxMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/controller/WxPortalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/controller/WxRedirectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/error/ErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/error/ErrorPageConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/AbstractHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/KfSessionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/LocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/LogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/MenuHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/MsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/NullHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/ScanHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/StoreCheckNotifyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/SubscribeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/UnsubscribeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/AppWeiXin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/service/impl/WeiXinServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserInpDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/input/dto/UserInpDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/output/dto/UserOutDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/PropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/error/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/error/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/utils/MiteBeanUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/META-INF/shop-service-member.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/entity/UserDO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/src/main/java/ll/entity/AppEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/src/main/java/ll/entity/AppEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/src/main/java/ll/entity/AppEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/target/classes/ll/entity/AppEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/shop-api-member-entity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/src/main/java/com/ll/entity/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/target/classes/com/ll/entity/UserEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/shop-api-weixin-entity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/src/main/java/com/ll/entity/AppEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/target/classes/com/ll/entity/AppEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/constants/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/AppMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/AppMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/target/classes/com/ll/weixin/service/WeiXinService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/target/classes/com/ll/weixin/service/WeiXinService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/AppMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/AppMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/AppWeiXin.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/AppWeiXin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/service/impl/WeiXinServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/service/impl/WeiXinServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/AppMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/AppMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberRegistServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberRegistServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/config-cache/app-member+default+application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/config-cache/app-member+default+application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,6 +72,8 @@
     <ignored path="$PROJECT_DIR$/shop-common/target/" />
     <ignored path="$PROJECT_DIR$/shop-common/shop-common-core/target/" />
     <ignored path="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/target/" />
+    <ignored path="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/" />
+    <ignored path="$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,47 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+            <state relative-caret-position="217">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,36 +116,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/AppMember.java">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseApiService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,19 +137,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseResponse.java">
+        <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="56" column="42" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="42" />
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/error/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/AppMember.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/MD5Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -259,17 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shop-api-dto/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/src/main/java/ll/weixin/service/WeiXinService.java" />
-        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-member/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-member/src/main/java/com/ll/member/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/feign/WeiXinServiceFeign.java" />
-        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java" />
-        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/AppWeiXin.java" />
         <option value="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/pom.xml" />
         <option value="$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/src/main/java/com/ll/entity/AppEntity.java" />
@@ -286,30 +224,41 @@
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/SubscribeHandler.java" />
         <option value="$PROJECT_DIR$/shop-common/pom.xml" />
         <option value="$PROJECT_DIR$/shop-common/shop-common-core/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/pom.xml" />
         <option value="$PROJECT_DIR$/shop-service-impl/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/pom.xml" />
         <option value="$PROJECT_DIR$/shop-api-entitys/pom.xml" />
         <option value="$PROJECT_DIR$/shop-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" />
         <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseResponse.java" />
         <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/MD5Util.java" />
         <option value="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/pom.xml" />
         <option value="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/src/main/java/ll/entity/AppEntity.java" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/service/impl/WeiXinServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/src/main/java/com/ll/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/pom.xml" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/AppMember.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" />
         <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseApiService.java" />
         <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/src/main/java/com/ll/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/shop-api-dto/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java" />
+        <option value="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserInpDTO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" />
         <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDo.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/MiteBeanUtils.java" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/error/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/BeanUtils.java" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/BeanUtils.java" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/BeansUtils.java" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/PropertyUtils.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -405,52 +354,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api-member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api-member" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-common-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api-member" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-common-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -495,6 +423,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-service-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
               <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,8 +444,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
               <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-service-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -537,6 +486,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ll.entity" />
     </key>
@@ -596,11 +548,11 @@
       <module name="shop-service-member" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.member.*" />
+          <option name="PATTERN" value="com.ll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.member.AppMember" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.AppMember" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -643,12 +595,20 @@
       <workItem from="1567145704132" duration="4397000" />
       <workItem from="1567501157008" duration="1248000" />
       <workItem from="1567502462379" duration="208000" />
-      <workItem from="1567502747836" duration="9891000" />
+      <workItem from="1567502747836" duration="14403000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring Cloud电商项目">
+      <created>1567517872792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567517872792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36022000" />
+    <option name="totallyTimeSpent" value="40534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,7 +621,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="779" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -703,86 +662,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Spring Cloud电商项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud电商项目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="580" column="56" selection-start-line="580" selection-start-column="51" selection-end-line="580" selection-end-column="56" />
-          <folding>
-            <element signature="e#26957#26958#0" expanded="true" />
-            <element signature="e#27022#27023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity/src/main/java/com/ll/entity/AppEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/config/WxMpProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/controller/WxMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/controller/WxPortalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/controller/WxRedirectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/error/ErrorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/error/ErrorPageConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/mp/handler/AbstractHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -859,27 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -894,20 +756,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -928,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/src/main/java/com/ll/weixin/AppWeiXin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -945,9 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-api-dto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/src/main/java/ll/entity/AppEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -955,29 +793,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-api-entitys/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/shop-api-member-entity.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -986,47 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/src/main/java/com/ll/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/mavenRepository/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/ApiImplicitParam.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="33" column="20" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,26 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/AppMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -1074,10 +834,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-entitys/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="24" column="19" selection-start-line="17" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity/src/main/java/com/ll/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="76" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserInpDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="956">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-478">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1086,22 +952,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="140">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="74">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin/src/main/java/com/ll/weixin/service/WeiXinService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/AppMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/error/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/BeansUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/PropertyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1157,7 +1107,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shop-api-member-entity</last-edited>
+          <last-edited>shop-api-member-dto</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

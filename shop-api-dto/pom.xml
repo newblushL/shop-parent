@@ -12,7 +12,16 @@
     <artifactId>shop-api-dto</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>shop-service-api-weixin-dto</module>
+        <module>shop-api-member-dto</module>
+        <module>shop-api-weixin-dto</module>
     </modules>
 
+    <dependencies>
+        <!-- swagger-spring-boot -->
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.7.0.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>

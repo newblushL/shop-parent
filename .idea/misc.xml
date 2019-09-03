@@ -7,6 +7,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-api-entitys/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
