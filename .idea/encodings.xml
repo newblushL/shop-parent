@@ -4,8 +4,14 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-entitys" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-common/shop-common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin" charset="UTF-8" />

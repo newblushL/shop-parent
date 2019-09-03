@@ -1,6 +1,9 @@
 package com.ll.weixin.service;
 
-import ll.entity.AppEntity;
+import com.ll.base.BaseResponse;
+import com.ll.entity.AppEntity;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
@@ -8,7 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @author: LL
  * @create: 2019-08-27 14:59
  */
-public interface WeiXinService {
+@Api(tags = "微信服务接口")
+public interface WeiXinService{
 
     /**
      * @Author: LL
@@ -16,6 +20,7 @@ public interface WeiXinService {
      * @Date: 2019-08-27
      * @return: ll.entity.AppEntity
      **/
+    @ApiOperation(value = "微信应用服务接口")
     @GetMapping("/getApp")
-    AppEntity getApp();
+    BaseResponse<AppEntity> getApp();
 }

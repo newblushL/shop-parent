@@ -19,4 +19,5 @@ public class AppEntity {
         this.appId = appId;
         this.appName = appName;
     }
+
 }

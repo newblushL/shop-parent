@@ -1,7 +1,10 @@
 package com.ll.weixin.service.impl;
 
+import com.ll.base.BaseApiService;
+import com.ll.base.BaseResponse;
+import com.ll.entity.AppEntity;
 import com.ll.weixin.service.WeiXinService;
-import ll.entity.AppEntity;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -10,9 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @create: 2019-08-27 15:15
  */
 @RestController
-public class WeiXinServiceImpl implements WeiXinService {
+public class WeiXinServiceImpl extends BaseApiService<AppEntity> implements WeiXinService {
+
+    @Value("${weixin.name}")
+    String name;
+
     @Override
-    public AppEntity getApp() {
-        return new AppEntity("1001","newblush");
+    public BaseResponse<AppEntity> getApp() {
+        return setResultSuccess(new AppEntity("1001", name));
     }
 }

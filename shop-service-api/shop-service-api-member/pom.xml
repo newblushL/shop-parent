@@ -17,8 +17,15 @@
         <!-- 引入微信实体类 -->
         <dependency>
             <groupId>com.ll</groupId>
-            <artifactId>shop-service-api-weixin-dto</artifactId>
+            <artifactId>shop-api-weixin-entity</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- 引入用户实体类 -->
+        <dependency>
+            <groupId>com.ll</groupId>
+            <artifactId>shop-api-member-entity</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 </project>

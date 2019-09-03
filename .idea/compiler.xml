@@ -2,22 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shop-api-weixin-entity" />
         <module name="shop-service-api-weixin" />
         <module name="shop-service-api-member" />
         <module name="shop-basics-springcloud-eureka" />
+        <module name="shop-common-core" />
         <module name="shop-service-weixin" />
         <module name="shop-service-member" />
+        <module name="shop-api-member-entity" />
         <module name="shop-service-api-weixin-dto" />
+        <module name="shop-basics-springcloud-zuul" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop-api-entitys" options="-parameters" />
+      <module name="shop-api-member-entity" options="-parameters" />
+      <module name="shop-api-weixin-entity" options="-parameters" />
       <module name="shop-basics-springcloud-eureka" options="-parameters" />
+      <module name="shop-basics-springcloud-zuul" options="-parameters" />
+      <module name="shop-common-core" options="-parameters" />
       <module name="shop-service-api" options="-parameters" />
       <module name="shop-service-api-member" options="-parameters" />
       <module name="shop-service-api-weixin" options="-parameters" />
