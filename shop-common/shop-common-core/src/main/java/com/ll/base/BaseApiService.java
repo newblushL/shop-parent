@@ -63,4 +63,13 @@ public class BaseApiService<T> {
         return new BaseResponse(code, msg, data);
     }
 
+    /**
+     * 调用数据库层判断
+     * @param result
+     * @return
+     */
+    public Boolean toDaoResult(int result) {
+        return result > 0 ? true : false;
+    }
+
 }

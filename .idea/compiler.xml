@@ -12,13 +12,16 @@
         <module name="shop-service-api-member" />
         <module name="shop-basics-springcloud-eureka" />
         <module name="shop-common-core" />
+        <module name="shop-common-web-core" />
         <module name="shop-service-weixin" />
+        <module name="shop-portal-web" />
         <module name="shop-service-member" />
         <module name="shop-api-weixin-dto" />
         <module name="shop-basics-springcloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="meite-shop-common-web-core" target="1.8" />
       <module name="shop-api-entitys" target="1.8" />
       <module name="shop-api-member-entity" target="1.8" />
       <module name="shop-api-weixin-entity" target="1.8" />
@@ -27,6 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="meite-shop-common-web-core" options="-parameters" />
       <module name="shop-api-entitys" options="-parameters" />
       <module name="shop-api-member-dto" options="-parameters" />
       <module name="shop-api-member-entity" options="-parameters" />
@@ -35,6 +39,8 @@
       <module name="shop-basics-springcloud-eureka" options="-parameters" />
       <module name="shop-basics-springcloud-zuul" options="-parameters" />
       <module name="shop-common-core" options="-parameters" />
+      <module name="shop-common-web-core" options="-parameters" />
+      <module name="shop-portal-web" options="-parameters" />
       <module name="shop-service-api" options="-parameters" />
       <module name="shop-service-api-member" options="-parameters" />
       <module name="shop-service-api-weixin" options="-parameters" />

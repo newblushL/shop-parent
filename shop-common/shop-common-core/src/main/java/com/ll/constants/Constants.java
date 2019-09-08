@@ -1,7 +1,7 @@
 package com.ll.constants;
 
 /**
- * @description: 统一状态代码
+ * @description: 变量代码
  * @author: LL
  * @create: 2019-08-30 14:20
  */
@@ -50,11 +50,31 @@ public interface Constants {
     /**
      * 微信注册码有效期30分钟
      */
-    Long WEIXINCODE_TIMEOUT = 1800l;
+    Long WEIXINCODE_TIMEOUT = 1800L;
     /**
-     * 用户手机号码已存在code
+     * 用户不存在
      */
-    Integer HTTP_RES_CODE_MOBILE_EXIST_203 = 203;
+    Integer HTTP_RES_CODE_MEMBER_NOT_EXIST_203 = 203;
+    /**
+     * token
+     */
+    String MEMBER_TOKEN_KEYPREFIX = "mb.login";
+    /**
+     * 安卓登陆类型
+     */
+    String MEMBER_LOGIN_TYPE_ANDROID = "Android";
+    /**
+     * IOS登陆类型
+     */
+    String MEMBER_LOGIN_TYPE_IOS = "IOS";
+    /**
+     * PC登陆类型
+      */
+    String MEMBER_LOGIN_TYPE_PC = "PC";
+    /**
+     * 登陆超时时间 有效期 90天
+     */
+    Long MEMBRE_LOGIN_TOKEN_TIME = 77776000L;
 
 }
 

@@ -5,15 +5,15 @@
     <file url="file://$PROJECT_DIR$/shop-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-api-entitys" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-api-entitys/shop-api-member-entity" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-api-entitys/shop-api-weixin-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-common/meite-shop-common-web-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-common/shop-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-common/shop-common-web-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-portal/shop-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin" charset="UTF-8" />

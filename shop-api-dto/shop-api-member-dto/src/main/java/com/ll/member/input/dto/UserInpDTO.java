@@ -7,12 +7,12 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @description: 会员接口输入实体类
+ * @description: 会员接口请求实体类
  * @author: LL
  * @create: 2019-09-03 22:22
  */
 @Data
-@ApiModel(value = "会员接口输入实体类")
+@ApiModel(value = "会员接口请求实体类")
 public class UserInpDTO {
     /**
      * 手机号码

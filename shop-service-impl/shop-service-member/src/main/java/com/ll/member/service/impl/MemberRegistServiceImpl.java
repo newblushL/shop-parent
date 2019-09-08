@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @description: 会员注册接口实现
+ * @description: 会员注册接口实现类
  * @author: LL
  * @create: 2019-08-30 15:37
  */
@@ -30,9 +30,9 @@ public class MemberRegistServiceImpl extends BaseApiService<JSONObject> implemen
     @Override
     public BaseResponse<JSONObject> register(@RequestBody UserInpDTO userInpDTO,
                                              String registCode) {
-        if (StringUtils.isBlank(userInpDTO.getUserName())) {
-            return setResultError("用户名不能为空!");
-        }
+//        if (StringUtils.isBlank(userInpDTO.getUserName())) {
+//            return setResultError("用户名不能为空!");
+//        }
         if (StringUtils.isBlank(userInpDTO.getMobile())) {
             return setResultError("手机号不能为空!");
         }
