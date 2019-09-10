@@ -19,5 +19,4 @@ public interface MemberLoginService {
 	@PostMapping("/login")
 	@ApiOperation(value = "会员用户登陆信息接口")
 	BaseResponse<JSONObject> login(@RequestBody UserLoginInpDTO userLoginInpDTO);
-
 }

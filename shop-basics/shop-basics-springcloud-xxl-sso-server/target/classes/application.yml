@@ -1,0 +1,29 @@
+
+server:
+  port: 8080
+  servlet:
+    context-path: /xxl-sso-server
+spring:
+  freemarker:
+    charset: UTF-8
+    request-context-attribute: request
+    settings:
+      number_format: 0.##########
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+  application:
+    name: app-xxl-sso
+xxl:
+  sso:
+    redis:
+      address: redis://127.0.0.1:6379
+      expire:
+        minite: 1440
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.16.49.129:8080/eureka

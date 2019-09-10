@@ -5,12 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/shop-api-dto/shop-service-api-weixin-dto/pom.xml" />
         <option value="$PROJECT_DIR$/shop-api-entitys/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/pom.xml" />
         <option value="$PROJECT_DIR$/shop-common/meite-shop-common-web-core/pom.xml" />
       </set>
     </option>

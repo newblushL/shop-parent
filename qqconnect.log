@@ -1,0 +1,145 @@
+6914352 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'eurekaRegistration': [eurekaAutoServiceRegistration]
+6914352 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'eurekaAutoServiceRegistration': [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration$EurekaClientConfigurationRefresher, org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration]
+6914353 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'close' on bean with name 'eurekaRegistration'
+6914368 DEBUG [2019-09-10 22:25:39]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+6914369 DEBUG [2019-09-10 22:25:39]  [{}->http://172.16.49.129:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+6914369 DEBUG [2019-09-10 22:25:39]  Getting free connection [{}->http://172.16.49.129:8080][null]
+6914369 DEBUG [2019-09-10 22:25:39]  Stale connection check
+6914371 DEBUG [2019-09-10 22:25:39]  CookieSpec selected: default
+6914371 DEBUG [2019-09-10 22:25:39]  Auth cache not set in the context
+6914371 DEBUG [2019-09-10 22:25:39]  Target auth state: UNCHALLENGED
+6914371 DEBUG [2019-09-10 22:25:39]  Proxy auth state: UNCHALLENGED
+6914371 DEBUG [2019-09-10 22:25:39]  Attempt 1 to execute request
+6914371 DEBUG [2019-09-10 22:25:39]  Sending request: DELETE /eureka/apps/APP-PORTAL-WEB/192.168.0.105:app-portal-web:80 HTTP/1.1
+6914371 DEBUG [2019-09-10 22:25:39]   >> "DELETE /eureka/apps/APP-PORTAL-WEB/192.168.0.105:app-portal-web:80 HTTP/1.1[\r][\n]"
+6914371 DEBUG [2019-09-10 22:25:39]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+6914371 DEBUG [2019-09-10 22:25:39]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+6914371 DEBUG [2019-09-10 22:25:39]   >> "DiscoveryIdentity-Id: 192.168.0.105[\r][\n]"
+6914371 DEBUG [2019-09-10 22:25:39]   >> "Accept-Encoding: gzip[\r][\n]"
+6914371 DEBUG [2019-09-10 22:25:39]   >> "Host: 172.16.49.129:8080[\r][\n]"
+6914372 DEBUG [2019-09-10 22:25:39]   >> "Connection: Keep-Alive[\r][\n]"
+6914372 DEBUG [2019-09-10 22:25:39]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+6914372 DEBUG [2019-09-10 22:25:39]   >> "[\r][\n]"
+6914372 DEBUG [2019-09-10 22:25:39]  >> DELETE /eureka/apps/APP-PORTAL-WEB/192.168.0.105:app-portal-web:80 HTTP/1.1
+6914372 DEBUG [2019-09-10 22:25:39]  >> DiscoveryIdentity-Name: DefaultClient
+6914372 DEBUG [2019-09-10 22:25:39]  >> DiscoveryIdentity-Version: 1.4
+6914372 DEBUG [2019-09-10 22:25:39]  >> DiscoveryIdentity-Id: 192.168.0.105
+6914372 DEBUG [2019-09-10 22:25:39]  >> Accept-Encoding: gzip
+6914372 DEBUG [2019-09-10 22:25:39]  >> Host: 172.16.49.129:8080
+6914372 DEBUG [2019-09-10 22:25:39]  >> Connection: Keep-Alive
+6914372 DEBUG [2019-09-10 22:25:39]  >> User-Agent: Java-EurekaClient/v1.8.6
+6914374 DEBUG [2019-09-10 22:25:39]   << "HTTP/1.1 200 [\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "X-Content-Type-Options: nosniff[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "Pragma: no-cache[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "Expires: 0[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "Content-Type: application/xml[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "Content-Length: 0[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "Date: Tue, 10 Sep 2019 14:25:38 GMT[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]   << "[\r][\n]"
+6914375 DEBUG [2019-09-10 22:25:39]  Receiving response: HTTP/1.1 200 
+6914375 DEBUG [2019-09-10 22:25:39]  << HTTP/1.1 200 
+6914375 DEBUG [2019-09-10 22:25:39]  << X-Content-Type-Options: nosniff
+6914375 DEBUG [2019-09-10 22:25:39]  << X-XSS-Protection: 1; mode=block
+6914375 DEBUG [2019-09-10 22:25:39]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+6914376 DEBUG [2019-09-10 22:25:39]  << Pragma: no-cache
+6914376 DEBUG [2019-09-10 22:25:39]  << Expires: 0
+6914376 DEBUG [2019-09-10 22:25:39]  << X-Frame-Options: SAMEORIGIN
+6914376 DEBUG [2019-09-10 22:25:39]  << Content-Type: application/xml
+6914376 DEBUG [2019-09-10 22:25:39]  << Content-Length: 0
+6914376 DEBUG [2019-09-10 22:25:39]  << Date: Tue, 10 Sep 2019 14:25:38 GMT
+6914376 DEBUG [2019-09-10 22:25:39]  Connection can be kept alive indefinitely
+6914376 DEBUG [2019-09-10 22:25:39]  Released connection is reusable.
+6914376 DEBUG [2019-09-10 22:25:39]  Releasing connection [{}->http://172.16.49.129:8080][null]
+6914376 DEBUG [2019-09-10 22:25:39]  Pooling connection [{}->http://172.16.49.129:8080][null]; keep alive indefinitely
+6914376 DEBUG [2019-09-10 22:25:39]  Notifying no-one, there are no waiting threads
+6914415 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
+6914415 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
+6914415 DEBUG [2019-09-10 22:25:39]  Closing connection last used @ Tue Sep 10 22:25:22 CST 2019
+6914415 DEBUG [2019-09-10 22:25:39]  Deleting connection [{}->http://172.16.49.129:8080][null]
+6914417 DEBUG [2019-09-10 22:25:39]  Connection 0.0.0.0:61338<->172.16.49.129:8080 closed
+6914417 DEBUG [2019-09-10 22:25:39]  Closing connection last used @ Tue Sep 10 22:25:39 CST 2019
+6914417 DEBUG [2019-09-10 22:25:39]  Deleting connection [{}->http://172.16.49.129:8080][null]
+6914417 DEBUG [2019-09-10 22:25:39]  Connection 0.0.0.0:61337<->172.16.49.129:8080 closed
+6914417 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
+6914417 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
+6914421 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'inetUtils': [eurekaInstanceConfigBean, org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration]
+6914421 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'eurekaInstanceConfigBean': [discoveryClient, scopedTarget.eurekaApplicationInfoManager, scopedTarget.eurekaClient]
+6914421 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'discoveryClient': [compositeDiscoveryClient]
+6914422 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'close' on bean with name 'inetUtils'
+6914422 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'close' on bean with name 'eurekaServiceRegistry'
+6914422 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'redisKeyValueTemplate'
+6914423 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'redisKeyValueAdapter'
+6914423 DEBUG [2019-09-10 22:25:39]  Stopped RedisMessageListenerContainer
+6914423 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'shutdown' on bean with name 'lettuceClientResources'
+6914682 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'springApplicationAdminRegistrar'
+6914683 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'mbeanExporter'
+6914683 INFO  [2019-09-10 22:25:39]  Unregistering JMX-exposed beans on shutdown
+6914685 INFO  [2019-09-10 22:25:39]  Unregistering JMX-exposed beans
+6914687 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'mvcValidator': [requestMappingHandlerAdapter]
+6914687 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
+6914687 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'mvcValidator'
+6914687 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'defaultValidator'
+6914690 DEBUG [2019-09-10 22:25:39]  Invoking destroy method on bean 'org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration': public void org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.close()
+6914701 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'redisMessageListenerContainer'
+6914701 DEBUG [2019-09-10 22:25:39]  Stopped RedisMessageListenerContainer
+6914701 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'springClientFactory': [cachingLBClientFactory, feignClient, loadBalancerClient]
+6914701 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'cachingLBClientFactory': [feignClient]
+6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'loadBalancerClient': [asyncLoadBalancerInterceptor, loadBalancerRequestFactory, ribbonInterceptor]
+6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'asyncLoadBalancerInterceptor': [asyncRestTemplateCustomizer]
+6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'asyncRestTemplateCustomizer': [loadBalancedAsyncRestTemplateInitializer]
+6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'loadBalancerRequestFactory': [ribbonInterceptor]
+6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'ribbonInterceptor': [restTemplateCustomizer]
+6914702 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'springClientFactory'
+6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping]
+6914703 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'feignContext'
+6914703 INFO  [2019-09-10 22:25:39]  Closing FeignContext-app-member: startup date [Tue Sep 10 20:30:43 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15b986cd
+6914708 WARN  [2019-09-10 22:25:39]  Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:214)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:291)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:261)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:182)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:144)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:577)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:549)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:510)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937)
+6914713 DEBUG [2019-09-10 22:25:39]  Returning cached instance of singleton bean 'lifecycleProcessor'
+6914713 DEBUG [2019-09-10 22:25:39]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60990e5c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertyPlaceholderAutoConfiguration,feignClientsConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.cloud.openfeign.FeignClientsConfiguration$HystrixFeignConfiguration,feignDecoder,feignEncoder,feignContract,feignConversionService,feignRetryer,feignBuilder,feignLoggerFactory]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@718607eb
+6914713 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'characterEncodingFilter'
+6914714 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'httpPutFormContentFilter'
+6914714 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'hiddenHttpMethodFilter'
+6914714 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'requestContextFilter'
+6914714 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'connectionFactory': [stringRedisTemplate, redisTemplate]
+6914714 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'stringRedisTemplate': [redisUtil]
+6914714 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'redisUtil': [generateToken]
+6914715 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'redisTemplate': [redisReferenceResolver]
+6914715 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'redisReferenceResolver': [redisConverter]
+6914715 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'connectionFactory'
+6914716 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'xxlSsoConfig'
+6914723 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+6914723 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'refreshScope': [contextRefresher, eurekaClient, eurekaApplicationInfoManager]
+6914723 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'contextRefresher': [refreshEventListener]
+6914724 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'refreshScope'
+6914724 DEBUG [2019-09-10 22:25:39]  Invoking destroy method on bean 'scopedTarget.eurekaClient': public synchronized void com.netflix.discovery.DiscoveryClient.shutdown()
+6914725 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]

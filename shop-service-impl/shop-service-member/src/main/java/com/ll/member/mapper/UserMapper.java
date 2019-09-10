@@ -4,6 +4,7 @@ import com.ll.member.mapper.entity.UserDO;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -25,7 +26,20 @@ public interface UserMapper {
             "password=#{password};")
     UserDO login(@Param("mobile") String mobile, @Param("password") String password);
 
-    @Select("SELECT USER_ID AS USERID ,MOBILE AS MOBILE,EMAIL AS EMAIL,PASSWORD AS PASSWORD, USER_NAME AS USER_NAME ,SEX AS SEX ,AGE AS AGE ,CREATE_TIME AS CREATETIME,IS_AVALIBLE AS ISAVALIBLE,PIC_IMG AS PICIMG,QQ_OPENID AS QQOPENID,WX_OPENID AS WXOPENID"
+    @Select("SELECT USER_ID AS USERID ,MOBILE AS MOBILE,EMAIL AS EMAIL,PASSWORD AS PASSWORD, " +
+            "USER_NAME AS USER_NAME ,SEX AS SEX ,AGE AS AGE ,CREATE_TIME AS CREATETIME," +
+            "IS_AVALIBLE AS ISAVALIBLE,PIC_IMG AS PICIMG,QQ_OPENID AS QQOPENID,WX_OPENID AS WXOPENID"
             + " FROM member WHERE user_Id=#{userId}")
     UserDO findByUserId(@Param("userId") Long userId);
+
+    @Select("SELECT USER_ID AS USERID ,MOBILE AS MOBILE,EMAIL AS EMAIL,PASSWORD AS PASSWORD," +
+            " USER_NAME AS USER_NAME ,SEX AS SEX ,AGE AS AGE ,CREATE_TIME AS CREATETIME," +
+            "IS_AVALIBLE AS ISAVALIBLE,PIC_IMG AS PICIMG,QQ_OPENID AS QQOPENID," +
+            "WX_OPENID AS WXOPENID FROM member WHERE qq_openid=#{qqOpenId}")
+    UserDO findByOpenId(@org.springframework.data.repository.query.Param("qqOpenId")
+                                String qqOpenId);
+
+    @Update("update member set QQ_OPENID =#{0} WHERE USER_ID=#{1}")
+    int updateUserOpenId(@org.springframework.data.repository.query.Param("qqOpenId")
+                                 String qqOpenId, @Param("userId") Long userId);
 }

@@ -17,12 +17,11 @@ public class BaseWebController {
 	 */
 	protected static final String ERROR_500_FTL = "500.ftl";
 
-	// 接口直接返回true 或者false
 	public Boolean isSuccess(BaseResponse<?> baseResp) {
 		if (baseResp == null) {
 			return false;
 		}
-		if (!baseResp.getCode().equals(Constants.HTTP_RES_CODE_200)) {
+		if (baseResp.getCode().equals(Constants.HTTP_RES_CODE_500)) {
 			return false;
 		}
 		return true;

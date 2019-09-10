@@ -56,14 +56,14 @@
 				<p>手机号登录</p>
 				<div class="layui-input-block login">
 					<i class="layui-icon layui-icon-username"></i> <input type="text"
-						required lay-verify="required" value="${(registerVO.mobile)!''}"
+						required lay-verify="required" value="${(registerVo.mobile)!''}"
 						name="mobile" placeholder="请输入手机号码" class="layui-input">
 				</div>
 
 				<div class="layui-input-block login" style="margin-top: 12px;">
 					<i class="layui-icon layui-icon-vercode"></i> <input
 						type="password" required lay-verify="required" name="password"
-						value="${(registerVO.password)!''}" placeholder="请输入密码"
+						value="${(registerVo.password)!''}" placeholder="请输入密码"
 						class="layui-input">
 				</div>
 
@@ -79,7 +79,7 @@
 
 				<div class="layui-input-block login" style="margin-top: 12px;">
 					<i class="layui-icon layui-icon-vercode"></i> <input
-						value="${(registerVO.registCode)!''}" name="registCode"
+						value="${(registerVo.registCode)!''}" name="registCode"
 						type="text" required lay-verify="required" placeholder="请输入微信注册码"
 						class="layui-input">
 				</div>
@@ -87,7 +87,7 @@
 
 				<div class="layui-input-block getCode" style="margin-top: 12px;">
 					<input type="text" name="graphicCode"
-						value="${(registerVO.graphicCode)!''}"   placeholder="请输入验证码" class="layui-input">
+						value="${(registerVo.graphicCode)!''}"   placeholder="请输入验证码" class="layui-input">
 					<img alt="" src="getVerify" onclick="getVerify(this);"
 						style="border: 1px solid #e2e2e2; font-size: 18px; height: 46px; margin-top: -69px; width: 44%; background-color: #e8d6c0; margin-left: 167px;">
 

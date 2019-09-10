@@ -82,6 +82,12 @@ public class MemberLoginServiceImpl extends BaseApiService<JSONObject> implement
                     return setResultError("系统错误!");
                 }
             }
+            // 如果有传递openid参数，修改到数据中
+            String qqOpenId = userLoginInpDTO.getQqOpenId();
+            if (!StringUtils.isBlank(qqOpenId)) {
+                userMapper.updateUserOpenId(qqOpenId, userId);
+            }
+            // 插入新Token
             String keyPrefix = Constants.MEMBER_TOKEN_KEYPREFIX + userLoginInpDTO.getLoginType();
             String newToken = generateToken.createToken(keyPrefix,
                     TypeCastHelper.toString(userId),
@@ -109,4 +115,6 @@ public class MemberLoginServiceImpl extends BaseApiService<JSONObject> implement
             return setResultError("系统错误!");
         }
     }
+
+
 }

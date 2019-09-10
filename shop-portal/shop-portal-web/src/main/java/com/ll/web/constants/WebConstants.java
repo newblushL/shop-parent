@@ -7,6 +7,13 @@ package com.ll.web.constants;
  */
 public interface WebConstants {
 
+	/**
+	 * 登陆Cookie名称
+	 */
 	String LOGIN_TOKEN_COOKIENAME = "login.pc.token";
 
+	/**
+	 * qqOpenId Session名称
+	 */
+	String LOGIN_QQ_OPENID = "qq_openid";
 }

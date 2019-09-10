@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@Api(tags = "会员注册接口")
+@Api(tags = "会员注册服务接口")
 public interface MemberRegisterService {
     /**
      * 用户注册接口

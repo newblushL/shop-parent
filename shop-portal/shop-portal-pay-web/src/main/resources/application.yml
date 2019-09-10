@@ -1,0 +1,44 @@
+#### 整合freemarker
+server:
+  port: 8050
+spring:
+  freemarker:
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .ftl
+    template-loader-path:
+      - classpath:/templates
+  application:
+    name: app-portal-pay-web
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-idle: 100
+        min-idle: 1
+        max-active: 1000
+        max-wait: -1
+    database: 0
+    timeout: 5000
+    password:
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.16.49.129:8080/eureka
+xxl:
+  sso:
+    logout:
+      path: /logout
+    redis:
+      address: redis://127.0.0.1:6379
+    server: http://xxlssoserver.com:8080/xxl-sso-server
+xxl-sso:
+  excluded:
+    paths:

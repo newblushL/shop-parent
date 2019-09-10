@@ -2,446 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90bee10c-46c4-45b2-aa3b-0f0304a4b2eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserLoginInpDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/input/dto/UserLoginInpDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/token/GenerateToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/transaction/RedisDataSoureceTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/type/TypeCastHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RegexUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/META-INF/shop-common-core.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/bean/PropertyUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/token/GenerateToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/transaction/RedisDataSoureceTransaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/type/TypeCastHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/utils/RedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/utils/RegexUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/shop-common-web-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/bean/PropertyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/utils/RandomValidateCodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/target/classes/com/ll/web/base/BaseWebController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/target/classes/com/ll/web/bean/PropertyUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/target/classes/com/ll/web/utils/CookieUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/target/classes/com/ll/web/utils/RandomValidateCodeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/shop-portal-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/AppPortalWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/code/VerifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo/LoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo/RegisterVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberLoginServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberRegisterServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants/WebConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/banner_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/beitao1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/beitao2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/beitao3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/beitao4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/beitao5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/beitao6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/goods_img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/home_img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/load_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/paging_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/paging_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/paging_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/paging_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/paging_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/paging_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/paging_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/shopnone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/us_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/us_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/us_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/us_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/us_img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/us_img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/img/us_imgbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/static/res/static/js/house.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/base/bottom.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/base/head.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/register.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/META-INF/shop-portal-web.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/AppPortalWeb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/code/VerifyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/member/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/member/controller/RegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/member/controller/req/vo/LoginVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/member/controller/req/vo/RegisterVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/member/feign/MemberLoginServiceFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/member/feign/MemberRegisterServiceFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/portal/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/web/constants/WebConstants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/banner_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/beitao1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/beitao2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/beitao3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/beitao4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/beitao5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/beitao6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/goods_img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/home_img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/load_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/paging_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/paging_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/paging_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/paging_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/paging_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/paging_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/paging_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/shopnone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/us_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/us_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/us_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/us_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/us_img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/us_img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/img/us_imgbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/static/res/static/js/house.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/templates/base/bottom.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/templates/base/head.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/templates/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/templates/member/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/templates/member/register.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberLoginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserTokenMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/BaseDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserTokenDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/UserTokenMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/entity/BaseDO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/entity/UserTokenDO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberLoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/XxlSsoServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/config/XxlSsoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/interceptor/MyWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/interceptor/PermissionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/resolver/WebExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/core/model/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/core/result/ReturnT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/feign/MemberServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/AdminLTE-local.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM40tgx99jmYGv_xzYuwd1rU.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM7YHq4FgHI02B8rPccK0FJQ.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY[0].woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6CzM2XYAq8cDhaXsrN8WXcA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6GQKuzMuncr0JB710wa2dPI.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6Lpx497t94oDua8KfAL9f-E.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6MAjkyiewWYrWZc50I8hK7I.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6OXKTZYPNtG1yMB_YJSqlic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDRVvBvQIc1z78c__uoBcyI.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGD_j0nMiB9fPhg_k1wdK2h0.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDovqjS_dXPZszO_XltPdNg.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/local.google.fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/dist/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/fastclick/fastclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/js/common.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/js/login.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/templates/common/common.exception.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/templates/common/common.macro.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/shop-portal-pay-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/AppPayWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/config/XxlSsoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/session/config/SessionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/config/XxlSsoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/QQAuthoriController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/QQAuthoriServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/TestSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/session/config/SessionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/qqconnectconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/qqlogin.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/QQAuthoriService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/QQAuthoriServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserInpDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserInpDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserLoginInpDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserLoginInpDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/input/dto/UserInpDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/input/dto/UserInpDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/input/dto/UserLoginInpDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/input/dto/UserLoginInpDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/output/dto/UserOutDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/target/classes/com/ll/member/output/dto/UserOutDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/base/BaseApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/base/BaseApiService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/constants/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/utils/MiteBeanUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-web-core/target/classes/com/ll/web/base/BaseWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-web-core/target/classes/com/ll/web/base/BaseWebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants/WebConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants/WebConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/register.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/register.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/web/constants/WebConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/com/ll/web/constants/WebConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/templates/member/register.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/shop-portal/shop-portal-web/target/classes/templates/member/register.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberRegisterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-member/target/classes/com/ll/member/service/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberLoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/entity/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/mapper/entity/UserDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberRegistServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberRegistServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberLoginServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/com/ll/member/service/impl/MemberServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/config-cache/app-member+default+application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-member/target/classes/config-cache/app-member+default+application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/AppWeiXin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/builder/AbstractBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/builder/ImageBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/builder/TextBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/config/WxMpConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/config/WxMpProperties$MpConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/config/WxMpProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/controller/WxMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/controller/WxPortalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/controller/WxRedirectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/error/ErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/error/ErrorPageConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/AbstractHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/KfSessionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/LocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/LogHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/MenuHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/MsgHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/NullHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/ScanHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/StoreCheckNotifyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/SubscribeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/handler/UnsubscribeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/mp/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-weixin/target/classes/com/ll/weixin/service/impl/WeiXinServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -468,6 +208,16 @@
     <ignored path="$PROJECT_DIR$/shop-portal/shop-portal-web/target/" />
     <ignored path="$PROJECT_DIR$/shop-common/meite-shop-common-web-core/target/" />
     <ignored path="$PROJECT_DIR$/shop-common/shop-common-web-core/target/" />
+    <ignored path="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/target/" />
+    <ignored path="$PROJECT_DIR$/shop-basics/shop-basic-xxl-sso-server/target/" />
+    <ignored path="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-web-sample-springboot/target/" />
+    <ignored path="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/target/" />
+    <ignored path="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-core/target/" />
+    <ignored path="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/target/" />
+    <ignored path="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-server/target/" />
+    <ignored path="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-token-sample-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/target/" />
+    <ignored path="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -486,58 +236,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/RegisterController.java">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/session/config/SessionConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="109">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/config/XxlSsoConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-658" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/controller/PayController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo/LoginVO.java">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/AppPayWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/templates/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants/WebConstants.java">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/TestSessionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="-16">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -545,50 +313,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java">
+        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberRegisterServiceFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberLoginServiceFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/AppPortalWeb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="165">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -598,9 +333,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Interface" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -616,6 +351,7 @@
       <find>regist</find>
       <find>手机号</find>
       <find>registerVo</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace>isBlank</replace>
@@ -629,57 +365,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/error/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/BeanUtils.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/BeanUtils.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/BeansUtils.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/PropertyUtils.java" />
-        <option value="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserInpDTO.java" />
-        <option value="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java" />
-        <option value="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserLoginInpDTO.java" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberLoginService.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RegexUtils.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/token/GenerateToken.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/type/TypeCastHelper.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/BaseDo.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserTokenDo.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/BaseDO.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDO.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserTokenDO.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserTokenMapper.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/transaction/RedisDataSoureceTransaction.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseApiService.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberLoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shop-portal/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-common/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-web-core/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/login.ftl" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/utils/CookieUtils.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/utils/RandomValidateCodeUtil.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/code/VerifyController.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberRegisterServiceFeign.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/bean/PropertyUtils.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo/RegisterVO.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/AppPortalWeb.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/register.ftl" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo/LoginVo.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberLoginServiceFeign.kt" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberLoginServiceFeign.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants/WebConstants.java" />
         <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/QQAuthoriService.java" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/QQAuthoriService.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/QQAuthoriServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberRegisterServiceFeign.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/QQAuthoriServiceFeign.java" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants/WebConstants.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/qqconnectconfig.properties" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java" />
+        <option value="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserLoginInpDTO.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/QQAuthoriController.java" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberLoginService.java" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/feign/MemberServierImplFeign.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/feign/MemberServiceFeign.java" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/WebController.java" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/XxlSsoServerApplication.java" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-web-sample-springboot/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/java/server/core/result/ReturnT.java" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/XxlSsoServerApplication.java" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/feign/MemberServiceFeign.java" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-core/src/main/java/com/xxl/sso/core/util/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/shop-basics/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/session/config/SessionConfig.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/config/XxlSsoConfig.java" />
+        <option value="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/WebController.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/config/SessionConfig.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/TestSessionController.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/controller/PayController.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/PayWeb.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/AppPayWeb.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/config/XxlSsoConfig.java" />
+        <option value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/templates/index.ftl" />
       </list>
     </option>
   </component>
@@ -696,7 +432,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="779" />
@@ -713,6 +448,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -723,34 +459,34 @@
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common-web-core" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common-web-core" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common-web-core" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common-web-core" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -759,6 +495,52 @@
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
               <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="shop-portal-pay-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -809,7 +591,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -820,18 +602,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -843,9 +613,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -854,36 +622,26 @@
               <item name="shop-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-service-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -898,20 +656,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base" />
-      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay" />
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main" />
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ll.pay.config" />
+      <recent name="com.ll.config" />
       <recent name="com.ll.web.bean" />
       <recent name="com.ll.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants" />
-      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo" />
-      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/utils" />
-      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main" />
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src/main/java" />
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-xxl-sso-server/src" />
+      <recent name="$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -930,35 +693,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.1569343" />
+    <option name="contentProportion" value="0.14160584" />
   </component>
-  <component name="RunManager" selected="Spring Boot.AppPortalWeb">
-    <configuration name="AppGateWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.AppGateWay" />
-      <module name="shop-basics-springcloud-zuul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shop-basics-springcloud-eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.AppEureka" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.AppPayWeb">
     <configuration name="AppMember" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-service-member" />
       <extension name="coverage">
@@ -968,6 +705,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.AppMember" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppPayWeb" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-portal-pay-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.pay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.pay.AppPayWeb" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -985,26 +735,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppWeiXin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shop-service-weixin" />
+    <configuration name="XxlClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxl-sso-web-sample-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.sso.sample.XxlClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxlSsoServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-basics-springcloud-xxl-sso-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.weixin.*" />
+          <option name="PATTERN" value="com.xxl.sso.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.weixin.AppWeiXin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.sso.server.XxlSsoServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AppPortalWeb" />
+        <item itemvalue="Spring Boot.AppPayWeb" />
+        <item itemvalue="Spring Boot.XxlSsoServerApplication (1)" />
         <item itemvalue="Spring Boot.AppMember" />
-        <item itemvalue="Spring Boot.AppWeiXin" />
-        <item itemvalue="Application.AppGateWay" />
-        <item itemvalue="Spring Boot.AppEureka" />
+        <item itemvalue="Spring Boot.AppPortalWeb" />
       </list>
     </recent_temporary>
   </component>
@@ -1027,7 +783,13 @@
       <workItem from="1567502747836" duration="14603000" />
       <workItem from="1567576774884" duration="13790000" />
       <workItem from="1567611589616" duration="205000" />
-      <workItem from="1567941896796" duration="9284000" />
+      <workItem from="1567941896796" duration="9651000" />
+      <workItem from="1568013816775" duration="9000" />
+      <workItem from="1568013944424" duration="8816000" />
+      <workItem from="1568105184336" duration="2575000" />
+      <workItem from="1568108033261" duration="71000" />
+      <workItem from="1568108109126" duration="202000" />
+      <workItem from="1568108316407" duration="12038000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Cloud电商项目">
       <created>1567517872792</created>
@@ -1043,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567524653716</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring Cloud电商项目">
+      <created>1567956353196</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567956353196</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64013000" />
+    <option name="totallyTimeSpent" value="88091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1059,32 +828,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1440" height="779" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="779" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5010846" side_tool="true" weight="0.24964234" />
+      <window_info id="Favorites" order="3" sideWeight="0.5032538" side_tool="true" weight="0.24320458" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" x="545" y="182" width="349" height="461" id="Project" order="6" sideWeight="0.4972826" visible="true" weight="0.23390558" />
+      <window_info content_ui="combo" x="545" y="182" width="349" height="461" id="Project" order="6" sideWeight="0.4967462" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="7" sideWeight="0.5027174" side_tool="true" weight="0.26037195" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32896653" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.18631732" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32896653" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32896653" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32896653" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32896653" />
-      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32896653" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.4643377" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32896653" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3551674" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49928468" visible="true" weight="0.45414847" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -1105,408 +874,362 @@
     <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud电商项目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RedisUtil.java">
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserTokenDO.java">
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-core/src/main/java/com/xxl/sso/core/util/JedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="183">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserTokenMapper.java">
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/config/XxlSsoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/transaction/RedisDataSoureceTransaction.java">
+    <entry file="file://$PROJECT_DIR$/shop-basics/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/shop-portal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="178">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/base/head.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/meite-shop-common-web-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/interceptor/MyWebMvcConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="116">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/resolver/WebExceptionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="179">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-web-core/pom.xml">
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-server/src/main/java/com/xxl/sso/server/XxlSsoServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/mavenRepository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/constraints/NotNull.class">
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-server/src/main/java/com/xxl/sso/server/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="-52">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/validation/BindingResult.class">
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-server/src/main/java/com/xxl/sso/server/controller/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="-20">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/login.ftl">
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/interceptor/PermissionInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="101">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/utils/RandomValidateCodeUtil.java">
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/code/VerifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="23" column="21" selection-start-line="19" selection-start-column="6" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/010-实现门户网站会员登陆和注册/上课的代码/mayikt_code/meite-shop-portal/meite-shop-portal-web/src/main/java/com/mayikt/member/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberRegisterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberLoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="42" column="21" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/AppMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/member/register.ftl">
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/input/dto/UserLoginInpDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/base/bottom.ftl">
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/templates/common/common.macro.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="340">
+          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberRegistServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/feign/WeiXinServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/error/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="568" selection-start-line="568" selection-end-line="568" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo/RegisterVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberLoginServiceFeign.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/bean/PropertyUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberLoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberRegisterServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/feign/MemberLoginServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/mavenRepository/com/alibaba/fastjson/1.2.30/fastjson-1.2.30.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/web/constants/WebConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="125">
+          <caret line="19" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/AppPortalWeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE.jar!/org/springframework/data/redis/connection/RedisStandaloneConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="297" column="35" lean-forward="true" selection-start-line="297" selection-start-column="35" selection-end-line="297" selection-end-column="35" />
+          <folding>
+            <element signature="e#14425#14426#0" expanded="true" />
+            <element signature="e#14484#14485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-web-sample-springboot/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-web-sample-springboot/src/main/java/com/xxl/sso/sample/config/XxlSsoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#799#825#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/config/XxlSsoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-core/src/main/java/com/xxl/sso/core/store/SsoSessionIdHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member/src/main/java/com/ll/member/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/XxlSsoServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/base/BaseApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/src/main/java/com/ll/member/output/dto/UserOutDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/mapper/entity/UserDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/java/com/ll/member/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="127" column="7" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/bean/PropertyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/session/config/SessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/req/vo/LoginVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-web-core/src/main/java/com/ll/web/base/BaseWebController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/member/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        <state relative-caret-position="165">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/session/config/SessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/config/XxlSsoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-658" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/templates/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/src/main/java/com/ll/portal/controller/TestSessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/java/com/ll/pay/AppPayWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1527,7 +1250,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1561,7 +1284,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shop-service-api-member</last-edited>
+          <last-edited>xxl-sso-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1586,6 +1309,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
