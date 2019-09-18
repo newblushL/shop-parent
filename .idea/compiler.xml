@@ -10,20 +10,24 @@
         <module name="xxl-sso-server" />
         <module name="shop-service-weixin" />
         <module name="shop-common-core" />
-        <module name="shop-basics-springcloud-zuul" />
+        <module name="shop-service-api-goods" />
         <module name="shop-service-api-member" />
         <module name="shop-basics-springcloud-eureka" />
         <module name="shop-portal-pay-web" />
         <module name="shop-basics-springcloud-xxl-sso-server" />
+        <module name="shop-basics-elk-kafka" />
         <module name="shop-service-member" />
         <module name="shop-api-weixin-dto" />
+        <module name="shop-api-goods-dto" />
+        <module name="shop-portal-web" />
+        <module name="shop-service-goods" />
         <module name="xxl-sso-web-sample-springboot" />
         <module name="shop-service-api-weixin" />
         <module name="shop-common-web-core" />
         <module name="xxl-sso-core" />
         <module name="shop-api-member-dto" />
         <module name="xxl-sso-token-sample-springboot" />
-        <module name="shop-portal-web" />
+        <module name="shop-basics-springcloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,10 +43,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="meite-shop-common-web-core" options="-parameters" />
       <module name="shop-api-entitys" options="-parameters" />
+      <module name="shop-api-goods-dto" options="-parameters" />
       <module name="shop-api-member-dto" options="-parameters" />
       <module name="shop-api-member-entity" options="-parameters" />
       <module name="shop-api-weixin-dto" options="-parameters" />
       <module name="shop-api-weixin-entity" options="-parameters" />
+      <module name="shop-basics-elk-kafka" options="-parameters" />
       <module name="shop-basics-springcloud-eureka" options="-parameters" />
       <module name="shop-basics-springcloud-xxl-sso-server" options="-parameters" />
       <module name="shop-basics-springcloud-zuul" options="-parameters" />
@@ -52,9 +58,11 @@
       <module name="shop-portal-pay-web" options="-parameters" />
       <module name="shop-portal-web" options="-parameters" />
       <module name="shop-service-api" options="-parameters" />
+      <module name="shop-service-api-goods" options="-parameters" />
       <module name="shop-service-api-member" options="-parameters" />
       <module name="shop-service-api-weixin" options="-parameters" />
       <module name="shop-service-api-weixin-dto" options="-parameters" />
+      <module name="shop-service-goods" options="-parameters" />
       <module name="shop-service-impl" options="-parameters" />
       <module name="shop-service-member" options="-parameters" />
       <module name="shop-service-weixin" options="-parameters" />

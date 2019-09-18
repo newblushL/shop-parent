@@ -14,6 +14,7 @@
     <modules>
         <module>shop-service-weixin</module>
         <module>shop-service-member</module>
+        <module>shop-service-goods</module>
     </modules>
 
     <dependencies>

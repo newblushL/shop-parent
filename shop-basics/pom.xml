@@ -15,6 +15,7 @@
         <module>shop-basics-springcloud-eureka</module>
         <module>shop-basics-springcloud-zuul</module>
         <module>shop-basics-springcloud-xxl-sso-server</module>
+        <module>shop-basics-elk-kafka</module>
     </modules>
 
 
