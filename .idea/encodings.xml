@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/shop-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-goods-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-pay-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-payment-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-elk-kafka" charset="UTF-8" />
@@ -26,10 +28,15 @@
     <file url="file://$PROJECT_DIR$/shop-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-payment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin" charset="UTF-8" />
   </component>
 </project>

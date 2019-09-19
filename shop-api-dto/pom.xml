@@ -15,6 +15,7 @@
         <module>shop-api-member-dto</module>
         <module>shop-api-weixin-dto</module>
         <module>shop-api-goods-dto</module>
+        <module>shop-api-payment-dto</module>
     </modules>
 
     <dependencies>

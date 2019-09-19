@@ -7,7 +7,6 @@ import com.ll.core.bean.PropertyUtils;
 import com.ll.core.token.GenerateToken;
 import com.ll.core.type.TypeCastHelper;
 import com.ll.core.utils.MD5Util;
-import com.ll.member.feign.WeiXinServiceFeign;
 import com.ll.member.input.dto.UserLoginInpDTO;
 import com.ll.member.mapper.UserMapper;
 import com.ll.member.mapper.entity.UserDO;
@@ -31,9 +30,6 @@ public class MemberServiceImpl extends BaseApiService<UserOutDTO> implements Mem
 
     @Autowired
     private GenerateToken generateToken;
-
-    @Autowired
-    private WeiXinServiceFeign weiXinServiceFeign;
 
     @Override
     public BaseResponse<UserOutDTO> existMobile(String mobile) {
