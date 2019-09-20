@@ -5,8 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-
-import com.spring4all.swagger.EnableSwagger2Doc;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @description: 支付服务
@@ -16,8 +15,9 @@ import com.spring4all.swagger.EnableSwagger2Doc;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@EnableSwagger2Doc
+//@EnableSwagger2Doc
 //@EnableApolloConfig
+@ComponentScan(basePackages = {"com.ll"})
 @MapperScan(basePackages = "com.ll.payment.mapper")
 public class AppPay {
 

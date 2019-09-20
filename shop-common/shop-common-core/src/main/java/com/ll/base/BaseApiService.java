@@ -19,6 +19,7 @@ public class BaseApiService<T> {
 
     /**
      * 返回错误，可以传msg
+     *
      * @param msg
      * @return
      */
@@ -28,6 +29,7 @@ public class BaseApiService<T> {
 
     /**
      * 返回成功，可以传data值
+     *
      * @param data
      * @return
      */
@@ -37,6 +39,7 @@ public class BaseApiService<T> {
 
     /**
      * 返回成功，沒有data值
+     *
      * @return
      */
     public BaseResponse<T> setResultSuccess() {
@@ -45,6 +48,7 @@ public class BaseApiService<T> {
 
     /**
      * 返回成功，沒有data值
+     *
      * @param msg
      * @return
      */
@@ -54,6 +58,7 @@ public class BaseApiService<T> {
 
     /**
      * 通用封装
+     *
      * @param code
      * @param msg
      * @param data
@@ -65,11 +70,27 @@ public class BaseApiService<T> {
 
     /**
      * 调用数据库层判断
+     *
      * @param result
      * @return
      */
     public Boolean toDaoResult(int result) {
         return result > 0 ? true : false;
+    }
+
+    /**
+     * 验证接口是否调用成功
+     * @param baseResp
+     * @return
+     */
+    public Boolean isSuccess(BaseResponse<?> baseResp) {
+        if (baseResp == null) {
+            return false;
+        }
+        if (baseResp.getCode().equals(Constants.HTTP_RES_CODE_500)) {
+            return false;
+        }
+        return true;
     }
 
 }

@@ -14,6 +14,7 @@
         <module>shop-service-impl</module>
         <module>shop-common</module>
         <module>shop-portal</module>
+        <module>shop-pay-plugin</module>
     </modules>
     <packaging>pom</packaging>
 

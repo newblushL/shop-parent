@@ -7,7 +7,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * @description: 支付交易Token令牌服务
+ * @description: 支付交易Token令牌接口
  * @author: LL
  * @create: 2019-09-19 21:47
  */

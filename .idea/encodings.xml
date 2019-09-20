@@ -8,10 +8,11 @@
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-web-sample-springboot" charset="UTF-8" />
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-pay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-unionpay-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-goods-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-pay-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-payment-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics" charset="UTF-8" />
@@ -22,21 +23,21 @@
     <file url="file://$PROJECT_DIR$/shop-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-common/shop-common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-common/shop-common-web-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-pay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-pay-plugin/shop-unionpay-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-portal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-portal/shop-portal-pay-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-portal/shop-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-payment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-member" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-pay" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-unionpay-plugin" charset="UTF-8" />
   </component>
 </project>
