@@ -5,6 +5,11 @@ import org.springframework.data.annotation.Id;
 
 import java.util.Date;
 
+/**
+ * @description: 支付交易信息VO
+ * @author: LL
+ * @create: 2019-09-21 16:19
+ */
 @Data
 public class PaymentTransactionEntity {
     /**

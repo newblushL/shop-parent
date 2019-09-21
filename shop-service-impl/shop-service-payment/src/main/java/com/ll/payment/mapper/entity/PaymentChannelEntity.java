@@ -4,6 +4,12 @@ import lombok.Data;
 
 import java.util.Date;
 
+/**
+ * @description: 支付渠道VO
+ * @author: LL
+ * @create: 2019-09-21 16:19
+ */
+
 @Data
 public class PaymentChannelEntity {
     /**

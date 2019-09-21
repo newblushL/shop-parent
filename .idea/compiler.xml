@@ -13,25 +13,25 @@
         <module name="shop-basics-elk-kafka" />
         <module name="shop-service-api-goods" />
         <module name="shop-service-api-member" />
-        <module name="shop-basics-springcloud-zuul" />
         <module name="shop-basics-springcloud-eureka" />
         <module name="shop-portal-pay-web" />
         <module name="shop-basics-springcloud-xxl-sso-server" />
         <module name="shop-service-member" />
         <module name="shop-api-weixin-dto" />
         <module name="shop-api-goods-dto" />
-        <module name="shop-common-web-core" />
+        <module name="shop-portal-web" />
         <module name="shop-service-api-payment" />
         <module name="shop-service-payment" />
         <module name="shop-service-goods" />
         <module name="xxl-sso-web-sample-springboot" />
+        <module name="shop-common-core" />
         <module name="shop-api-payment-dto" />
         <module name="shop-service-api-weixin" />
-        <module name="shop-common-core" />
+        <module name="shop-common-web-core" />
         <module name="xxl-sso-core" />
         <module name="shop-api-member-dto" />
         <module name="xxl-sso-token-sample-springboot" />
-        <module name="shop-portal-web" />
+        <module name="shop-basics-springcloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

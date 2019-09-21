@@ -37,4 +37,12 @@ logging:
   level:
     ### 开发环境使用DEBUG 生产环境info或者error
     com.mayikt.member.mapper: DEBUG
-  
+###多线程配置
+threadPool:
+  ###核心线程数
+  corePoolSize: 10
+  ###最大线程数
+  maxPoolSize: 20
+  ##  队列容量
+  queueCapacity: 16
+

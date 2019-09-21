@@ -7,7 +7,6 @@ import com.ll.payment.mapper.entity.PaymentTransactionEntity;
 import com.unionpay.acp.sdk.AcpService;
 import com.unionpay.acp.sdk.LogUtil;
 import com.unionpay.acp.sdk.SDKConstants;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -22,7 +21,6 @@ import static com.unionpay.acp.demo.BackRcvResponse.getAllRequestParam;
  * @author: LL
  * @create: 2019-09-21 16:19
  */
-@Slf4j
 @Component
 public class UnionPayCallBackTemplate extends AbstractPayCallBackTemplate {
     @Autowired
@@ -44,7 +42,8 @@ public class UnionPayCallBackTemplate extends AbstractPayCallBackTemplate {
         } else {
             LogUtil.writeLog("验证签名结果[成功].");
             // 【注：为了安全验签成功才应该写商户的成功处理逻辑】交易成功，更新商户订单状态
-            String orderId = reqParam.get("orderId"); // 获取后台通知的数据，其他字段也可用类似方式获取
+            // 获取后台通知的数据，其他字段也可用类似方式获取
+            String orderId = reqParam.get("orderId");
             reqParam.put("paymentId", orderId);
             reqParam.put(PayConstant.RESULT_NAME, PayConstant.RESULT_PAYCODE_200);
         }
@@ -82,8 +81,4 @@ public class UnionPayCallBackTemplate extends AbstractPayCallBackTemplate {
         return successResult();
     }
 
-    @Override
-    protected void payLog(Map<String, String> verifySignature) {
-        log.info("<<<<<银联的请求参数集合:" + verifySignature);
-    }
 }
