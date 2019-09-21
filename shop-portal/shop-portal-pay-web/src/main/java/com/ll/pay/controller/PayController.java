@@ -1,7 +1,9 @@
 package com.ll.pay.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.ll.base.BaseResponse;
 import com.ll.pay.feign.PayMentChannelServiceFeign;
+import com.ll.pay.feign.PayMentContextServiceFeign;
 import com.ll.pay.feign.PayMentTranscInfoServiceFeign;
 import com.ll.payment.output.dto.PayMentTransacDTO;
 import com.ll.payment.output.dto.PaymentChannelDTO;
@@ -12,6 +14,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -27,6 +31,9 @@ public class PayController extends BaseWebController {
 
     @Autowired
     private PayMentChannelServiceFeign payMentChannelServiceFeign;
+
+    @Autowired
+    private PayMentContextServiceFeign payMentContextServiceFeign;
 
     @RequestMapping("/")
     public String index() {
@@ -49,7 +56,7 @@ public class PayController extends BaseWebController {
             return ERROR_500_FTL;
         }
         BaseResponse<PayMentTransacDTO> payMentTransacDTOBaseResponse = payMentTranscInfoServiceFeign.
-                tokenByPayMentTransc(token);
+                tokenByPayMentTransac(token);
         if (!isSuccess(payMentTransacDTOBaseResponse)) {
             setErrorMsg(model, payMentTransacDTOBaseResponse.getMsg());
             return ERROR_500_FTL;
@@ -58,6 +65,26 @@ public class PayController extends BaseWebController {
         List<PaymentChannelDTO> paymentChanneList = payMentChannelServiceFeign.selectAll();
         model.addAttribute("data", payMentTransacDTO);
         model.addAttribute("paymentChanneList", paymentChanneList);
+        model.addAttribute("payToken", token);
+
         return "index";
+    }
+
+    /**
+     * 解析支付页面
+     *
+     * @param payToken
+     * @return
+     * @throws IOException
+     */
+    @RequestMapping("/payHtml")
+    public void payHtml(String channelId, String payToken, HttpServletResponse response) throws IOException {
+        response.setContentType("text/html; charset=utf-8");
+        BaseResponse<JSONObject> payHtmlData = payMentContextServiceFeign.toPayHtml(channelId, payToken);
+        if (isSuccess(payHtmlData)) {
+            JSONObject data = payHtmlData.getData();
+            String payHtml = data.getString("payHtml");
+            response.getWriter().print(payHtml);
+        }
     }
 }

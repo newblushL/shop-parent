@@ -20,5 +20,5 @@ public interface PayMentTransacInfoService {
      * @return: com.ll.base.BaseResponse<com.ll.payment.output.dto.PayMentTransacDTO>
      **/
     @GetMapping("/tokenByPayMentTransc")
-    BaseResponse<PayMentTransacDTO> tokenByPayMentTransc(@RequestParam String token);
+    BaseResponse<PayMentTransacDTO> tokenByPayMentTransac(@RequestParam String token);
 }

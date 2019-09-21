@@ -33,7 +33,8 @@ public class PayMentContextServiceImpl extends BaseApiService<JSONObject> implem
         if (paymentChannelEntity == null) {
             return setResultError("没有查询到支付渠道");
         }
-        BaseResponse<PayMentTransacDTO> payMentTransacDTOBaseResponse = payMentTransacInfoService.tokenByPayMentTransc(payToken);
+        BaseResponse<PayMentTransacDTO> payMentTransacDTOBaseResponse =
+                payMentTransacInfoService.tokenByPayMentTransac(payToken);
         if (!isSuccess(payMentTransacDTOBaseResponse)) {
             return setResultError(payMentTransacDTOBaseResponse.getMsg());
         }

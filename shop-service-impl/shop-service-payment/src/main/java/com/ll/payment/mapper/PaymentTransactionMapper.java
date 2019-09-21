@@ -1,9 +1,7 @@
 package com.ll.payment.mapper;
 
 import com.ll.payment.mapper.entity.PaymentTransactionEntity;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -23,5 +21,16 @@ public interface PaymentTransactionMapper {
             "partypay_Id as partyPayId , payment_Id as paymentId FROM payment_transaction " +
             "WHERE ID=#{id};")
     PaymentTransactionEntity selectById(Long id);
+
+    @Select("SELECT ID AS ID ,pay_Amount AS payAmount,payment_Status AS paymentStatus," +
+            "user_ID AS userId, order_Id AS orderId , created_Time as createdTime ," +
+            "partypay_Id as partyPayId , payment_Id as paymentId FROM payment_transaction " +
+            "WHERE PAYMENT_ID=#{paymentId};")
+    PaymentTransactionEntity selectByPaymentId(String paymentId);
+
+    @Update("update payment_transaction SET PAYMENT_STATUS=#{paymentStatus}  WHERE " +
+            "PAYMENT_ID=#{paymentId};")
+    int updatePaymentStatus(@Param("paymentStatus") String paymentStatus, @Param("paymentId") String paymentId);
+
 
 }

@@ -27,7 +27,7 @@ public class PayMentTransacInfoServiceImpl extends BaseApiService<PayMentTransac
     private PaymentTransactionMapper paymentTransactionMapper;
 
     @Override
-    public BaseResponse<PayMentTransacDTO> tokenByPayMentTransc(String token) {
+    public BaseResponse<PayMentTransacDTO> tokenByPayMentTransac(String token) {
         if (StringUtils.isBlank(token)) {
             setResultError("Token不能为空！");
         }
