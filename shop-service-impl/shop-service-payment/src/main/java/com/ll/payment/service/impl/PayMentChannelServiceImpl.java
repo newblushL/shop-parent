@@ -1,7 +1,7 @@
 package com.ll.payment.service.impl;
 
 import com.ll.base.BaseApiService;
-import com.ll.mapper.MapperUtils;
+import com.ll.integral.mapper.MapperUtils;
 import com.ll.payment.mapper.PaymentChannelMapper;
 import com.ll.payment.mapper.entity.PaymentChannelEntity;
 import com.ll.payment.output.dto.PaymentChannelDTO;

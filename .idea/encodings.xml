@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-admin" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-core" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-frameless" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-springboot" charset="UTF-8" />
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master" charset="UTF-8" />
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-core" charset="UTF-8" />
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples" charset="UTF-8" />
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-token-sample-springboot" charset="UTF-8" />
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-samples/xxl-sso-web-sample-springboot" charset="UTF-8" />
     <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/xxl-sso-server" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-admin" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-admin/target/classes/META-INF/maven/com.xuxueli/xxl-job-admin" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-core" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-core/target/classes/META-INF/maven/com.xuxueli/xxl-job-core" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-frameless" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-frameless/target/classes/META-INF/maven/com.xuxueli/xxl-job-executor-sample-frameless" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/m2e-wtp/web-resources/META-INF/maven/com.xuxueli/xxl-job-executor-sample-jfinal" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/m2e-wtp/web-resources/META-INF/maven/com.xuxueli/xxl-job-executor-sample-nutz" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/m2e-wtp/web-resources/META-INF/maven/com.xuxueli/xxl-job-executor-sample-spring" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-springboot" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/META-INF/maven/com.xuxueli/xxl-job-executor-sample-springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/meite-shop-pay-plugin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/meite-shop-unionpay-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-goods-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto" charset="UTF-8" />
@@ -35,9 +58,9 @@
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-integral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/shop-unionpay-plugin" charset="UTF-8" />
   </component>
 </project>

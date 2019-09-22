@@ -1,15 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" />
+    <file type="web" url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz" />
+    <file type="web" url="file://$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring" />
+    <file type="web" url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" />
+    <file type="web" url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-nutz" />
+    <file type="web" url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-spring" />
+    <file type="web" url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" />
+    <file type="web" url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz" />
+    <file type="web" url="file://$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring" />
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/013-SSO单点登陆系统设计/源码/xxl-sso-master/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-core/target/classes/META-INF/maven/com.xuxueli/xxl-job-core/pom.properties" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-admin/target/classes/META-INF/maven/com.xuxueli/xxl-job-admin/pom.properties" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/m2e-wtp/web-resources/META-INF/maven/com.xuxueli/xxl-job-executor-sample-nutz/pom.properties" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/m2e-wtp/web-resources/META-INF/maven/com.xuxueli/xxl-job-executor-sample-jfinal/pom.properties" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/m2e-wtp/web-resources/META-INF/maven/com.xuxueli/xxl-job-executor-sample-spring/pom.properties" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-frameless/target/classes/META-INF/maven/com.xuxueli/xxl-job-executor-sample-frameless/pom.properties" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/classes/META-INF/maven/com.xuxueli/xxl-job-executor-sample-springboot/pom.properties" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$USER_HOME$/Desktop/xxl-job-master/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-admin/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-core/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-frameless/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring/pom.xml" />
+        <option value="$USER_HOME$/Desktop/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-springboot/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-admin/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-core/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-frameless/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-nutz/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-spring/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master-1/xxl-job-executor-samples/xxl-job-executor-sample-springboot/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-admin/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-core/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-frameless/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring/pom.xml" />
+        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-pay-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-unionpay-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/shop-api-dto/shop-api-pay-dto/pom.xml" />

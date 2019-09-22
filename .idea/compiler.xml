@@ -7,31 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xxl-sso-server" />
+        <module name="shop-api-goods-dto" />
+        <module name="shop-basics-springcloud-zuul" />
+        <module name="xxl-sso-web-sample-springboot" />
+        <module name="shop-portal-web" />
         <module name="shop-unionpay-plugin" />
-        <module name="shop-service-weixin" />
+        <module name="shop-api-member-dto" />
+        <module name="shop-service-integral" />
         <module name="shop-basics-elk-kafka" />
+        <module name="shop-api-payment-dto" />
+        <module name="xxl-sso-token-sample-springboot" />
+        <module name="shop-service-member" />
+        <module name="xxl-sso-core" />
+        <module name="shop-service-payment" />
+        <module name="shop-service-weixin" />
         <module name="shop-service-api-goods" />
-        <module name="shop-service-api-member" />
-        <module name="shop-basics-springcloud-eureka" />
+        <module name="shop-service-api-payment" />
+        <module name="shop-service-goods" />
         <module name="shop-portal-pay-web" />
         <module name="shop-basics-springcloud-xxl-sso-server" />
-        <module name="shop-service-member" />
+        <module name="shop-service-api-member" />
         <module name="shop-api-weixin-dto" />
-        <module name="shop-api-goods-dto" />
-        <module name="shop-portal-web" />
-        <module name="shop-service-api-payment" />
-        <module name="shop-service-payment" />
-        <module name="shop-service-goods" />
-        <module name="xxl-sso-web-sample-springboot" />
-        <module name="shop-common-core" />
-        <module name="shop-api-payment-dto" />
+        <module name="shop-basics-springcloud-eureka" />
         <module name="shop-service-api-weixin" />
         <module name="shop-common-web-core" />
-        <module name="xxl-sso-core" />
-        <module name="shop-api-member-dto" />
-        <module name="xxl-sso-token-sample-springboot" />
-        <module name="shop-basics-springcloud-zuul" />
+        <module name="shop-common-core" />
+        <module name="xxl-sso-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +46,31 @@
       <module name="shop-service-api-pay" target="1.8" />
       <module name="shop-service-api-weixin-dto" target="1.8" />
       <module name="shop-service-pay" target="1.8" />
+      <module name="xxl-job" target="1.7" />
+      <module name="xxl-job (1)" target="1.7" />
+      <module name="xxl-job-admin" target="1.7" />
+      <module name="xxl-job-admin (1)" target="1.7" />
+      <module name="xxl-job-admin (3)" target="1.5" />
+      <module name="xxl-job-core" target="1.7" />
+      <module name="xxl-job-core (1)" target="1.7" />
+      <module name="xxl-job-core (3)" target="1.5" />
+      <module name="xxl-job-executor-sample-frameless" target="1.7" />
+      <module name="xxl-job-executor-sample-frameless (1)" target="1.7" />
+      <module name="xxl-job-executor-sample-frameless (3)" target="1.5" />
+      <module name="xxl-job-executor-sample-jfinal" target="1.7" />
+      <module name="xxl-job-executor-sample-jfinal (1)" target="1.7" />
+      <module name="xxl-job-executor-sample-jfinal (3)" target="1.5" />
+      <module name="xxl-job-executor-sample-nutz" target="1.7" />
+      <module name="xxl-job-executor-sample-nutz (1)" target="1.7" />
+      <module name="xxl-job-executor-sample-nutz (3)" target="1.5" />
+      <module name="xxl-job-executor-sample-spring" target="1.7" />
+      <module name="xxl-job-executor-sample-spring (1)" target="1.7" />
+      <module name="xxl-job-executor-sample-spring (3)" target="1.5" />
+      <module name="xxl-job-executor-sample-springboot" target="1.7" />
+      <module name="xxl-job-executor-sample-springboot (1)" target="1.7" />
+      <module name="xxl-job-executor-sample-springboot (3)" target="1.5" />
+      <module name="xxl-job-executor-samples" target="1.7" />
+      <module name="xxl-job-executor-samples (1)" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -77,6 +103,7 @@
       <module name="shop-service-api-weixin-dto" options="-parameters" />
       <module name="shop-service-goods" options="-parameters" />
       <module name="shop-service-impl" options="-parameters" />
+      <module name="shop-service-integral" options="-parameters" />
       <module name="shop-service-member" options="-parameters" />
       <module name="shop-service-pay" options="-parameters" />
       <module name="shop-service-payment" options="-parameters" />

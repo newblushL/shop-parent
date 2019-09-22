@@ -1,4 +1,4 @@
-package com.ll.mapper;
+package com.ll.integral.mapper;
 
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.impl.DefaultMapperFactory;
