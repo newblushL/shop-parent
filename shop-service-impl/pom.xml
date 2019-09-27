@@ -17,6 +17,7 @@
         <module>shop-service-goods</module>
         <module>shop-service-payment</module>
         <module>shop-service-integral</module>
+        <module>shop-service-auth</module>
     </modules>
 
     <dependencies>

@@ -1,6 +1,7 @@
 package com.ll.payment.mq.producer;
 
 import com.alibaba.fastjson.JSONObject;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageBuilder;
 import org.springframework.amqp.core.MessageProperties;
@@ -11,12 +12,13 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @description: 生产者
+ * @description: 积分生产者
  * @author: LL
  * @create: 2019-09-22 19:45
  */
 @Component
-class IntegralProducer implements RabbitTemplate.ConfirmCallback {
+@Slf4j
+public class IntegralProducer implements RabbitTemplate.ConfirmCallback {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
@@ -43,17 +45,21 @@ class IntegralProducer implements RabbitTemplate.ConfirmCallback {
 
     }
 
-    // 生产消息确认机制 生产者往服务器端发送消息的时候，采用应答机制
+    /**
+     * 生产消息确认机制 生产者往服务器端发送消息的时候，采用应答机制
+     *
+     * @param correlationData
+     * @param ack
+     * @param cause
+     */
     @Override
     public void confirm(CorrelationData correlationData, boolean ack, String cause) {
-        String jsonString = correlationData.getId();
-        System.out.println("消息id:" + correlationData.getId());
         if (ack) {
-            System.out.println("消息发送确认成功");
+            log.info(">>>>>MQ消息发送确实成功");
         } else {
-            JSONObject jsonObject = JSONObject.parseObject(jsonString);
+            JSONObject jsonObject = JSONObject.parseObject(correlationData.getId());
             send(jsonObject);
-            System.out.println("消息发送确认失败:" + cause);
+            log.error(">>>>>消息发送确认失败{}", cause);
         }
 
     }

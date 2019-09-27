@@ -8,6 +8,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -59,6 +60,7 @@ public abstract class AbstractPayCallBackTemplate {
      * @Param resp:
      * @return: java.lang.String
      **/
+    @Transactional
     public String payAsyncCallBack(HttpServletRequest req, HttpServletResponse resp) {
         // 获取所有请求参数封装为map集合进行验证
         Map<String, String> verifySignature = verifySignature(req, resp);

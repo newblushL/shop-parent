@@ -64,4 +64,9 @@ public class PaymentTransactionEntity {
      */
     private String paymentId;
 
+    /**
+     * 支付渠道
+     */
+    private String paymentChannel;
+
 }

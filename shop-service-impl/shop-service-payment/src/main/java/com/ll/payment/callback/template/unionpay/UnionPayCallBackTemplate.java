@@ -1,13 +1,16 @@
 package com.ll.payment.callback.template.unionpay;
 
+import com.alibaba.fastjson.JSONObject;
 import com.ll.payment.callback.template.AbstractPayCallBackTemplate;
 import com.ll.payment.constant.PayConstant;
 import com.ll.payment.mapper.PaymentTransactionMapper;
 import com.ll.payment.mapper.entity.PaymentTransactionEntity;
+import com.ll.payment.mq.producer.IntegralProducer;
 import com.unionpay.acp.sdk.AcpService;
 import com.unionpay.acp.sdk.LogUtil;
 import com.unionpay.acp.sdk.SDKConstants;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -23,8 +26,13 @@ import static com.unionpay.acp.demo.BackRcvResponse.getAllRequestParam;
  */
 @Component
 public class UnionPayCallBackTemplate extends AbstractPayCallBackTemplate {
+
+    public static final String PAYMENT_CHANNEL = "yinlian_pay";
     @Autowired
     private PaymentTransactionMapper paymentTransactionMapper;
+
+    @Autowired
+    private IntegralProducer integralProducer;
 
     @Override
     protected Map<String, String> verifySignature(HttpServletRequest req, HttpServletResponse resp) {
@@ -70,15 +78,32 @@ public class UnionPayCallBackTemplate extends AbstractPayCallBackTemplate {
             // 失败
             return failSuccess();
         }
-        // 网络延迟重试的情况，查询状态支付状态，避免重复增加积分等问题(幂等性问题)
+        // 网络延迟重试的情况，查询状态支付状态
         PaymentTransactionEntity paymentTransactionEntity = paymentTransactionMapper.selectByPaymentId(paymentId);
         if (paymentTransactionEntity.getPaymentStatus().equals(PayConstant.PAY_STATUS_SUCCESS)) {
             return successResult();
         }
         // 修改为已支付状态
-        paymentTransactionMapper.updatePaymentStatus(
-                PayConstant.PAY_STATUS_SUCCESS + "", paymentId);
+        paymentTransactionMapper.updatePaymentStatus(PayConstant.PAY_STATUS_SUCCESS + "",
+                paymentId, PAYMENT_CHANNEL);
+        //避免重复增加积分等问题(幂等性问题)
+        addMQIntegral(paymentTransactionEntity);
+        int i = 1 / 0;
         return successResult();
+    }
+
+    /**
+     * 基于MQ增加积分
+     *
+     * @param paymentTransactionEntity
+     */
+    @Async
+    public void addMQIntegral(PaymentTransactionEntity paymentTransactionEntity) {
+        JSONObject data = new JSONObject();
+        data.put("paymentId", paymentTransactionEntity.getPaymentId());
+        data.put("userId", paymentTransactionEntity.getUserId());
+        data.put("integral", 100);
+        integralProducer.send(data);
     }
 
 }
