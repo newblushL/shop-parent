@@ -56,6 +56,7 @@
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-payment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-spike" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-api/shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-auth" charset="UTF-8" />
@@ -63,6 +64,7 @@
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-integral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-service-impl/shop-service-weixin" charset="UTF-8" />
   </component>
 </project>

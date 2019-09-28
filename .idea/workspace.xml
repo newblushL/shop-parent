@@ -55,46 +55,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90bee10c-46c4-45b2-aa3b-0f0304a4b2eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/GatewayBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/GatewayDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/impl/VerificationBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/feign/AuthorizationServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/filter/GatewayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/mapper/BlacklistMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/mapper/entity/Blacklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/SignUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-auth/src/main/java/com/ll/service/auth/AuthorizationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth/AppAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth/mapper/AppInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth/mapper/entity/AppInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth/service/impl/AuthorizationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth/utils/Guid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/consumer/PayCheckStateConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-spike/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-api/shop-service-api-spike/src/main/java/com/ll/spike/service/SpikeCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/AppSpike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/SeckillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/entity/SeckillEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/impl/SpikeCommodityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/com/ll/AppGateWay$DocumentationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/com/ll/AppGateWay$DocumentationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/com/ll/AppGateWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/target/classes/com/ll/AppGateWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/utils/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common-core/target/classes/com/ll/core/utils/RedisUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/template/AbstractPayCallBackTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/template/AbstractPayCallBackTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/template/unionpay/UnionPayCallBackTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/template/unionpay/UnionPayCallBackTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/PaymentTransactionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/PaymentTransactionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/entity/PaymentTransactionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/entity/PaymentTransactionEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mq/producer/IntegralProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mq/producer/IntegralProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/target/classes/com/ll/payment/mapper/PaymentTransactionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/target/classes/com/ll/payment/mapper/PaymentTransactionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/target/classes/com/ll/payment/mapper/entity/PaymentTransactionEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service-impl/shop-service-payment/target/classes/com/ll/payment/mapper/entity/PaymentTransactionEntity.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -174,6 +153,8 @@
     <ignored path="$PROJECT_DIR$/shop-service-impl/shop-service-integral/target/" />
     <ignored path="$PROJECT_DIR$/shop-service-api/shop-service-api-auth/target/" />
     <ignored path="$PROJECT_DIR$/shop-service-impl/shop-service-auth/target/" />
+    <ignored path="$PROJECT_DIR$/shop-service-api/shop-service-api-spike/target/" />
+    <ignored path="$PROJECT_DIR$/shop-service-impl/shop-service-spike/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,73 +173,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/GatewayBuild.java">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/GatewayDirector.java">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="246">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/impl/VerificationBuild.java">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/AppSpike.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/SignUtil.java">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/impl/SpikeCommodityServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="271" column="23" selection-start-line="271" selection-start-column="23" selection-end-line="271" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="250">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,17 +212,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/pom.xml">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/entity/OrderEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97" />
+            <state relative-caret-position="-13">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/OrderMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="31" selection-start-line="26" selection-start-column="8" selection-end-line="31" />
+            <state relative-caret-position="180">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-eureka/src/main/java/com/ll/AppEureka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -318,6 +286,8 @@
       <find>integral_queue</find>
       <find>paymentChannel</find>
       <find>MeiteAppInfo</find>
+      <find>toVerifyMap</find>
+      <find>meite_</find>
     </findStrings>
     <replaceStrings>
       <replace>isBlank</replace>
@@ -338,20 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/service/PayAsyncCallBackService.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/entity/PaymentTransactionLogEntity.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/entity/PaymentChannelEntity.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/AppPay.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/config/AsyncTaskConfig.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/PaymentTransactionLogMapper.java" />
-        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-admin/src/main/resources/application.properties" />
-        <option value="$USER_HOME$/Desktop/【1717资源网】蚂蚁课堂-第四期-基于SpringCloud构建微服务电商项目 (无密)/027-聚合支付平台-基于XXL-Job实现异步对账/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-springboot/src/main/java/com/xxl/job/executor/XxlJobExecutorApplication.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/rabbitmqConfig/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mq/config/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mq/producer/IntegralConsumer.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/config/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-integral/src/main/java/com/ll/mapper/entity/IntegralEntity.java" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-integral/src/main/java/com/ll/mapper/IntegralMapper.java" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-integral/src/main/java/com/ll/consume/IntegralConsumer.java" />
         <option value="$PROJECT_DIR$/shop-service-impl/shop-service-integral/pom.xml" />
@@ -389,6 +345,20 @@
         <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java" />
         <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-service-api/shop-service-api-spike/src/main/java/com/ll/spike/service/SpikeCommodityService.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/mapper/entity/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/mapper/entity/SeckillEntity.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/mapper/SeckillMapper.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/SeckillMapper.java" />
+        <option value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/AppSpike.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/impl/SpikeCommodityServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -413,9 +383,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="21" />
-    <option name="y" value="29" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="801" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -429,100 +399,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-basics-springcloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,7 +418,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/feign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -554,15 +433,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-integral/src/main/java/com/ll/integral" />
+      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/shop-pay-plugin/shop-unionpay-plugin/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-pay-plugin/shop-unionpay-plugin/src/main/java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ll.pay.output.dto" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/feign" />
-      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth" />
-      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth/utils" />
-      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth/mapper" />
-      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ll.core.utils" />
@@ -571,12 +450,12 @@
       <recent name="com.ll.web.bean" />
       <recent name="com.ll.entity" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/resources" />
-      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-integral/src/main/java/com/ll/integral" />
-      <recent name="$PROJECT_DIR$/shop-portal/shop-portal-pay-web/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/shop-pay-plugin/shop-unionpay-plugin/src/main/resources" />
-      <recent name="$PROJECT_DIR$/shop-pay-plugin/shop-unionpay-plugin/src/main/java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike" />
+      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/mapper" />
+      <recent name="$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/feign" />
+      <recent name="$PROJECT_DIR$/shop-service-impl/shop-service-auth/src/main/java/com/ll/auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -595,22 +474,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2" />
+    <option name="contentProportion" value="0.25620437" />
   </component>
-  <component name="RunManager" selected="Application.TestUtils">
-    <configuration name="TestUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zuul.TestUtils" />
-      <module name="shop-basics-springcloud-zuul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.zuul.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.AppEureka">
     <configuration name="AppAuth" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-service-auth" />
       <extension name="coverage">
@@ -620,6 +486,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.auth.AppAuth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-basics-springcloud-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.AppEureka" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -650,27 +529,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XxlSsoServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="shop-basics-springcloud-xxl-sso-server" />
+    <configuration name="AppSpike" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-service-spike" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxl.sso.server.*" />
+          <option name="PATTERN" value="com.ll.spike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.sso.server.XxlSsoServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ll.spike.AppSpike" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AppGateWay" />
-        <item itemvalue="Application.TestUtils" />
-        <item itemvalue="Spring Boot.AppAuth" />
-        <item itemvalue="Spring Boot.XxlSsoServerApplication" />
+        <item itemvalue="Spring Boot.AppSpike" />
+        <item itemvalue="Spring Boot.AppEureka" />
         <item itemvalue="Spring Boot.AppPayWeb" />
+        <item itemvalue="Spring Boot.AppGateWay" />
+        <item itemvalue="Spring Boot.AppAuth" />
       </list>
     </recent_temporary>
   </component>
@@ -716,7 +594,8 @@
       <workItem from="1569142370660" duration="818000" />
       <workItem from="1569143254729" duration="9733000" />
       <workItem from="1569218799094" duration="5219000" />
-      <workItem from="1569567899378" duration="9239000" />
+      <workItem from="1569567899378" duration="9576000" />
+      <workItem from="1569661690812" duration="4114000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Cloud电商项目">
       <created>1567517872792</created>
@@ -795,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569161146668</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Spring Cloud电商项目">
+      <created>1569596080136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569596080137</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174193000" />
+    <option name="totallyTimeSpent" value="178644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,7 +697,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="29" width="1440" height="801" extended-state="0" />
+    <frame x="21" y="23" width="1440" height="788" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -819,7 +705,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5042493" side_tool="true" weight="0.18454936" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" x="545" y="182" width="349" height="461" id="Project" order="6" sideWeight="0.4957507" visible="true" weight="0.2067239" />
+      <window_info active="true" content_ui="combo" x="545" y="182" width="349" height="461" id="Project" order="6" sideWeight="0.4957507" visible="true" weight="0.19313304" />
       <window_info id="Structure" order="7" sideWeight="0.5027174" side_tool="true" weight="0.26037195" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32850942" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -836,7 +722,7 @@
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32850942" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49928468" visible="true" weight="0.5105783" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49928468" visible="true" weight="0.41235632" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -866,155 +752,8 @@
     <MESSAGE value="Spring Cloud电商项目" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud电商项目" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/SignUtil.java</url>
-          <line>270</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/amqp/spring-rabbit/2.0.3.RELEASE/spring-rabbit-2.0.3.RELEASE.jar!/org/springframework/amqp/rabbit/support/CorrelationData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/mavenRepository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mq/producer/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="24" column="36" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mq/producer/IntegralProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/PaymentTransactionLogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/template/AbstractPayCallBackTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/template/unionpay/UnionPayCallBackTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-integral/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="47" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/consumer/PayCheckStateConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/PaymentTransactionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/mapper/entity/PaymentTransactionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/service/impl/PayMentTransacInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/src/main/java/com/ll/payment/callback/service/PayAsyncCallBackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/twitter/SnowflakeIdUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/twitter/SnowflakeIdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/integral/mapper/MapperUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-member/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="1" selection-start-line="1" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/sign/SignUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/sign/SignUtil.java" />
     <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1039,13 +778,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1169,16 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/filter/GatewayFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/feign/AuthorizationServiceFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1186,13 +908,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1210,11 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-portal/shop-portal-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1229,10 +939,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/TestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="116">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1023">
+          <caret line="86" column="54" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/GatewayDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/filter/GatewayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1241,18 +985,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/GatewayBuild.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/GatewayDirector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="323">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1261,25 +995,159 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/zuul/build/impl/VerificationBuild.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="544">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/SignUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
+        <state relative-caret-position="93">
+          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/SignUtil.java">
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-spike/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-api/shop-service-api-spike/src/main/java/com/ll/spike/service/SpikeCommodityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="271" column="23" selection-start-line="271" selection-start-column="23" selection-end-line="271" selection-end-column="23" />
+        <state relative-caret-position="158">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/entity/SeckillEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-payment/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="34" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/mavenRepository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="486" column="19" selection-start-line="486" selection-start-column="19" selection-end-line="486" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-common/shop-common-core/src/main/java/com/ll/core/utils/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/SeckillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-xxl-sso-server/src/main/java/com/xxl/sso/server/XxlSsoServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-zuul/src/main/java/com/ll/AppGateWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-basics/shop-basics-springcloud-eureka/src/main/java/com/ll/AppEureka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/AppSpike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/entity/OrderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-service-impl/shop-service-spike/src/main/java/com/ll/spike/service/impl/SpikeCommodityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,7 +1204,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shop-service-api-auth</last-edited>
+          <last-edited>shop-parent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
