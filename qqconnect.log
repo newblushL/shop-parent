@@ -1,102 +1,400 @@
-6914352 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'eurekaRegistration': [eurekaAutoServiceRegistration]
-6914352 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'eurekaAutoServiceRegistration': [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration$EurekaClientConfigurationRefresher, org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration]
-6914353 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'close' on bean with name 'eurekaRegistration'
-6914368 DEBUG [2019-09-10 22:25:39]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
-6914369 DEBUG [2019-09-10 22:25:39]  [{}->http://172.16.49.129:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
-6914369 DEBUG [2019-09-10 22:25:39]  Getting free connection [{}->http://172.16.49.129:8080][null]
-6914369 DEBUG [2019-09-10 22:25:39]  Stale connection check
-6914371 DEBUG [2019-09-10 22:25:39]  CookieSpec selected: default
-6914371 DEBUG [2019-09-10 22:25:39]  Auth cache not set in the context
-6914371 DEBUG [2019-09-10 22:25:39]  Target auth state: UNCHALLENGED
-6914371 DEBUG [2019-09-10 22:25:39]  Proxy auth state: UNCHALLENGED
-6914371 DEBUG [2019-09-10 22:25:39]  Attempt 1 to execute request
-6914371 DEBUG [2019-09-10 22:25:39]  Sending request: DELETE /eureka/apps/APP-PORTAL-WEB/192.168.0.105:app-portal-web:80 HTTP/1.1
-6914371 DEBUG [2019-09-10 22:25:39]   >> "DELETE /eureka/apps/APP-PORTAL-WEB/192.168.0.105:app-portal-web:80 HTTP/1.1[\r][\n]"
-6914371 DEBUG [2019-09-10 22:25:39]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
-6914371 DEBUG [2019-09-10 22:25:39]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
-6914371 DEBUG [2019-09-10 22:25:39]   >> "DiscoveryIdentity-Id: 192.168.0.105[\r][\n]"
-6914371 DEBUG [2019-09-10 22:25:39]   >> "Accept-Encoding: gzip[\r][\n]"
-6914371 DEBUG [2019-09-10 22:25:39]   >> "Host: 172.16.49.129:8080[\r][\n]"
-6914372 DEBUG [2019-09-10 22:25:39]   >> "Connection: Keep-Alive[\r][\n]"
-6914372 DEBUG [2019-09-10 22:25:39]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
-6914372 DEBUG [2019-09-10 22:25:39]   >> "[\r][\n]"
-6914372 DEBUG [2019-09-10 22:25:39]  >> DELETE /eureka/apps/APP-PORTAL-WEB/192.168.0.105:app-portal-web:80 HTTP/1.1
-6914372 DEBUG [2019-09-10 22:25:39]  >> DiscoveryIdentity-Name: DefaultClient
-6914372 DEBUG [2019-09-10 22:25:39]  >> DiscoveryIdentity-Version: 1.4
-6914372 DEBUG [2019-09-10 22:25:39]  >> DiscoveryIdentity-Id: 192.168.0.105
-6914372 DEBUG [2019-09-10 22:25:39]  >> Accept-Encoding: gzip
-6914372 DEBUG [2019-09-10 22:25:39]  >> Host: 172.16.49.129:8080
-6914372 DEBUG [2019-09-10 22:25:39]  >> Connection: Keep-Alive
-6914372 DEBUG [2019-09-10 22:25:39]  >> User-Agent: Java-EurekaClient/v1.8.6
-6914374 DEBUG [2019-09-10 22:25:39]   << "HTTP/1.1 200 [\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "X-Content-Type-Options: nosniff[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "Pragma: no-cache[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "Expires: 0[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "Content-Type: application/xml[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "Content-Length: 0[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "Date: Tue, 10 Sep 2019 14:25:38 GMT[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]   << "[\r][\n]"
-6914375 DEBUG [2019-09-10 22:25:39]  Receiving response: HTTP/1.1 200 
-6914375 DEBUG [2019-09-10 22:25:39]  << HTTP/1.1 200 
-6914375 DEBUG [2019-09-10 22:25:39]  << X-Content-Type-Options: nosniff
-6914375 DEBUG [2019-09-10 22:25:39]  << X-XSS-Protection: 1; mode=block
-6914375 DEBUG [2019-09-10 22:25:39]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-6914376 DEBUG [2019-09-10 22:25:39]  << Pragma: no-cache
-6914376 DEBUG [2019-09-10 22:25:39]  << Expires: 0
-6914376 DEBUG [2019-09-10 22:25:39]  << X-Frame-Options: SAMEORIGIN
-6914376 DEBUG [2019-09-10 22:25:39]  << Content-Type: application/xml
-6914376 DEBUG [2019-09-10 22:25:39]  << Content-Length: 0
-6914376 DEBUG [2019-09-10 22:25:39]  << Date: Tue, 10 Sep 2019 14:25:38 GMT
-6914376 DEBUG [2019-09-10 22:25:39]  Connection can be kept alive indefinitely
-6914376 DEBUG [2019-09-10 22:25:39]  Released connection is reusable.
-6914376 DEBUG [2019-09-10 22:25:39]  Releasing connection [{}->http://172.16.49.129:8080][null]
-6914376 DEBUG [2019-09-10 22:25:39]  Pooling connection [{}->http://172.16.49.129:8080][null]; keep alive indefinitely
-6914376 DEBUG [2019-09-10 22:25:39]  Notifying no-one, there are no waiting threads
-6914415 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
-6914415 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
-6914415 DEBUG [2019-09-10 22:25:39]  Closing connection last used @ Tue Sep 10 22:25:22 CST 2019
-6914415 DEBUG [2019-09-10 22:25:39]  Deleting connection [{}->http://172.16.49.129:8080][null]
-6914417 DEBUG [2019-09-10 22:25:39]  Connection 0.0.0.0:61338<->172.16.49.129:8080 closed
-6914417 DEBUG [2019-09-10 22:25:39]  Closing connection last used @ Tue Sep 10 22:25:39 CST 2019
-6914417 DEBUG [2019-09-10 22:25:39]  Deleting connection [{}->http://172.16.49.129:8080][null]
-6914417 DEBUG [2019-09-10 22:25:39]  Connection 0.0.0.0:61337<->172.16.49.129:8080 closed
-6914417 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
-6914417 DEBUG [2019-09-10 22:25:39]  Closing connections idle longer than 0 SECONDS
-6914421 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'inetUtils': [eurekaInstanceConfigBean, org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration]
-6914421 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'eurekaInstanceConfigBean': [discoveryClient, scopedTarget.eurekaApplicationInfoManager, scopedTarget.eurekaClient]
-6914421 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'discoveryClient': [compositeDiscoveryClient]
-6914422 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'close' on bean with name 'inetUtils'
-6914422 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'close' on bean with name 'eurekaServiceRegistry'
-6914422 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'redisKeyValueTemplate'
-6914423 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'redisKeyValueAdapter'
-6914423 DEBUG [2019-09-10 22:25:39]  Stopped RedisMessageListenerContainer
-6914423 DEBUG [2019-09-10 22:25:39]  Invoking destroy method 'shutdown' on bean with name 'lettuceClientResources'
-6914682 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'springApplicationAdminRegistrar'
-6914683 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'mbeanExporter'
-6914683 INFO  [2019-09-10 22:25:39]  Unregistering JMX-exposed beans on shutdown
-6914685 INFO  [2019-09-10 22:25:39]  Unregistering JMX-exposed beans
-6914687 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'mvcValidator': [requestMappingHandlerAdapter]
-6914687 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
-6914687 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'mvcValidator'
-6914687 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'defaultValidator'
-6914690 DEBUG [2019-09-10 22:25:39]  Invoking destroy method on bean 'org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration': public void org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.close()
-6914701 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'redisMessageListenerContainer'
-6914701 DEBUG [2019-09-10 22:25:39]  Stopped RedisMessageListenerContainer
-6914701 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'springClientFactory': [cachingLBClientFactory, feignClient, loadBalancerClient]
-6914701 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'cachingLBClientFactory': [feignClient]
-6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'loadBalancerClient': [asyncLoadBalancerInterceptor, loadBalancerRequestFactory, ribbonInterceptor]
-6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'asyncLoadBalancerInterceptor': [asyncRestTemplateCustomizer]
-6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'asyncRestTemplateCustomizer': [loadBalancedAsyncRestTemplateInitializer]
-6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'loadBalancerRequestFactory': [ribbonInterceptor]
-6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'ribbonInterceptor': [restTemplateCustomizer]
-6914702 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'springClientFactory'
-6914702 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping]
-6914703 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'feignContext'
-6914703 INFO  [2019-09-10 22:25:39]  Closing FeignContext-app-member: startup date [Tue Sep 10 20:30:43 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15b986cd
-6914708 WARN  [2019-09-10 22:25:39]  Exception thrown from ApplicationListener handling ContextClosedEvent
+12931768 DEBUG [2019-09-29 21:20:03]  Started listening for Redis messages
+12931770 ERROR [2019-09-29 21:20:03]  Connection failure occurred. Restarting subscription task after 5000 ms
+12935435 DEBUG [2019-09-29 21:20:07]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12935435 DEBUG [2019-09-29 21:20:07]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+12935435 DEBUG [2019-09-29 21:20:07]  No free connections [{}->http://172.16.49.129:8080][null]
+12935435 DEBUG [2019-09-29 21:20:07]  Available capacity: 50 out of 50 [{}->http://172.16.49.129:8080][null]
+12935435 DEBUG [2019-09-29 21:20:07]  Creating new connection [{}->http://172.16.49.129:8080]
+12935435 DEBUG [2019-09-29 21:20:07]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12935435 DEBUG [2019-09-29 21:20:07]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 1, total allocated: 1 out of 200
+12935435 DEBUG [2019-09-29 21:20:07]  No free connections [{}->http://172.16.49.129:8080][null]
+12935435 DEBUG [2019-09-29 21:20:07]  Available capacity: 49 out of 50 [{}->http://172.16.49.129:8080][null]
+12935435 DEBUG [2019-09-29 21:20:07]  Creating new connection [{}->http://172.16.49.129:8080]
+12935435 DEBUG [2019-09-29 21:20:07]  Connecting to 172.16.49.129:8080
+12935435 DEBUG [2019-09-29 21:20:07]  Connecting to 172.16.49.129:8080
+12935445 DEBUG [2019-09-29 21:20:07]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12935445 DEBUG [2019-09-29 21:20:07]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 2, total allocated: 2 out of 200
+12935445 DEBUG [2019-09-29 21:20:07]  No free connections [{}->http://172.16.49.129:8080][null]
+12935445 DEBUG [2019-09-29 21:20:07]  Available capacity: 48 out of 50 [{}->http://172.16.49.129:8080][null]
+12935445 DEBUG [2019-09-29 21:20:07]  Creating new connection [{}->http://172.16.49.129:8080]
+12935445 DEBUG [2019-09-29 21:20:07]  Connecting to 172.16.49.129:8080
+12935540 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@3b77472a closed
+12935540 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@3b77472a shut down
+12935540 DEBUG [2019-09-29 21:20:07]  Released connection is not reusable.
+12935540 DEBUG [2019-09-29 21:20:07]  Releasing connection [{}->http://172.16.49.129:8080][null]
+12935540 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@3b77472a closed
+12935540 DEBUG [2019-09-29 21:20:07]  Notifying no-one, there are no waiting threads
+12935540 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@3adf54de closed
+12935541 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@3adf54de shut down
+12935541 DEBUG [2019-09-29 21:20:07]  Released connection is not reusable.
+12935541 DEBUG [2019-09-29 21:20:07]  Releasing connection [{}->http://172.16.49.129:8080][null]
+12935541 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@3adf54de closed
+12935541 DEBUG [2019-09-29 21:20:07]  Notifying no-one, there are no waiting threads
+12935549 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@7597ab0 closed
+12935549 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@7597ab0 shut down
+12935550 DEBUG [2019-09-29 21:20:07]  Released connection is not reusable.
+12935550 DEBUG [2019-09-29 21:20:07]  Releasing connection [{}->http://172.16.49.129:8080][null]
+12935550 DEBUG [2019-09-29 21:20:07]  Connection org.apache.http.impl.conn.DefaultClientConnection@7597ab0 closed
+12935550 DEBUG [2019-09-29 21:20:07]  Notifying no-one, there are no waiting threads
+12936773 DEBUG [2019-09-29 21:20:08]  Started listening for Redis messages
+12936776 ERROR [2019-09-29 21:20:08]  Connection failure occurred. Restarting subscription task after 5000 ms
+12941780 DEBUG [2019-09-29 21:20:13]  Started listening for Redis messages
+12941783 ERROR [2019-09-29 21:20:13]  Connection failure occurred. Restarting subscription task after 5000 ms
+12946786 DEBUG [2019-09-29 21:20:18]  Started listening for Redis messages
+12946787 ERROR [2019-09-29 21:20:18]  Connection failure occurred. Restarting subscription task after 5000 ms
+12947261 DEBUG [2019-09-29 21:20:19]  Closing connections idle longer than -1 SECONDS
+12947261 DEBUG [2019-09-29 21:20:19]  Closing connections idle longer than 0 SECONDS
+12947287 DEBUG [2019-09-29 21:20:19]  Closing connections idle longer than 30000 SECONDS
+12947288 DEBUG [2019-09-29 21:20:19]  Closing connections idle longer than 30000 SECONDS
+12951792 DEBUG [2019-09-29 21:20:23]  Started listening for Redis messages
+12951792 ERROR [2019-09-29 21:20:23]  Connection failure occurred. Restarting subscription task after 5000 ms
+12956795 DEBUG [2019-09-29 21:20:28]  Started listening for Redis messages
+12956797 ERROR [2019-09-29 21:20:28]  Connection failure occurred. Restarting subscription task after 5000 ms
+12961798 DEBUG [2019-09-29 21:20:33]  Started listening for Redis messages
+12961799 ERROR [2019-09-29 21:20:33]  Connection failure occurred. Restarting subscription task after 5000 ms
+12965549 DEBUG [2019-09-29 21:20:37]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12965549 DEBUG [2019-09-29 21:20:37]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+12965549 DEBUG [2019-09-29 21:20:37]  No free connections [{}->http://172.16.49.129:8080][null]
+12965549 DEBUG [2019-09-29 21:20:37]  Available capacity: 50 out of 50 [{}->http://172.16.49.129:8080][null]
+12965549 DEBUG [2019-09-29 21:20:37]  Creating new connection [{}->http://172.16.49.129:8080]
+12965549 DEBUG [2019-09-29 21:20:37]  Connecting to 172.16.49.129:8080
+12965552 DEBUG [2019-09-29 21:20:37]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12965552 DEBUG [2019-09-29 21:20:37]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 1, total allocated: 1 out of 200
+12965552 DEBUG [2019-09-29 21:20:37]  No free connections [{}->http://172.16.49.129:8080][null]
+12965552 DEBUG [2019-09-29 21:20:37]  Available capacity: 49 out of 50 [{}->http://172.16.49.129:8080][null]
+12965552 DEBUG [2019-09-29 21:20:37]  Creating new connection [{}->http://172.16.49.129:8080]
+12965552 DEBUG [2019-09-29 21:20:37]  Connecting to 172.16.49.129:8080
+12965560 DEBUG [2019-09-29 21:20:37]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12965560 DEBUG [2019-09-29 21:20:37]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 2, total allocated: 2 out of 200
+12965560 DEBUG [2019-09-29 21:20:37]  No free connections [{}->http://172.16.49.129:8080][null]
+12965561 DEBUG [2019-09-29 21:20:37]  Available capacity: 48 out of 50 [{}->http://172.16.49.129:8080][null]
+12965561 DEBUG [2019-09-29 21:20:37]  Creating new connection [{}->http://172.16.49.129:8080]
+12965561 DEBUG [2019-09-29 21:20:37]  Connecting to 172.16.49.129:8080
+12965654 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@54b46cbe closed
+12965654 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@54b46cbe shut down
+12965654 DEBUG [2019-09-29 21:20:37]  Released connection is not reusable.
+12965654 DEBUG [2019-09-29 21:20:37]  Releasing connection [{}->http://172.16.49.129:8080][null]
+12965654 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@54b46cbe closed
+12965654 DEBUG [2019-09-29 21:20:37]  Notifying no-one, there are no waiting threads
+12965656 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@4cebcada closed
+12965656 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@4cebcada shut down
+12965656 DEBUG [2019-09-29 21:20:37]  Released connection is not reusable.
+12965656 DEBUG [2019-09-29 21:20:37]  Releasing connection [{}->http://172.16.49.129:8080][null]
+12965656 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@4cebcada closed
+12965656 DEBUG [2019-09-29 21:20:37]  Notifying no-one, there are no waiting threads
+12965664 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@571dceb1 closed
+12965664 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@571dceb1 shut down
+12965664 DEBUG [2019-09-29 21:20:37]  Released connection is not reusable.
+12965664 DEBUG [2019-09-29 21:20:37]  Releasing connection [{}->http://172.16.49.129:8080][null]
+12965664 DEBUG [2019-09-29 21:20:37]  Connection org.apache.http.impl.conn.DefaultClientConnection@571dceb1 closed
+12965664 DEBUG [2019-09-29 21:20:37]  Notifying no-one, there are no waiting threads
+12966804 DEBUG [2019-09-29 21:20:38]  Started listening for Redis messages
+12966805 ERROR [2019-09-29 21:20:38]  Connection failure occurred. Restarting subscription task after 5000 ms
+12971809 DEBUG [2019-09-29 21:20:43]  Started listening for Redis messages
+12971810 ERROR [2019-09-29 21:20:43]  Connection failure occurred. Restarting subscription task after 5000 ms
+12976818 DEBUG [2019-09-29 21:20:48]  Started listening for Redis messages
+12976823 ERROR [2019-09-29 21:20:48]  Connection failure occurred. Restarting subscription task after 5000 ms
+12977265 DEBUG [2019-09-29 21:20:49]  Closing connections idle longer than -1 SECONDS
+12977266 DEBUG [2019-09-29 21:20:49]  Closing connections idle longer than 0 SECONDS
+12977292 DEBUG [2019-09-29 21:20:49]  Closing connections idle longer than 30000 SECONDS
+12977292 DEBUG [2019-09-29 21:20:49]  Closing connections idle longer than 30000 SECONDS
+12981827 DEBUG [2019-09-29 21:20:53]  Started listening for Redis messages
+12981828 ERROR [2019-09-29 21:20:53]  Connection failure occurred. Restarting subscription task after 5000 ms
+12986829 DEBUG [2019-09-29 21:20:58]  Started listening for Redis messages
+12986830 ERROR [2019-09-29 21:20:58]  Connection failure occurred. Restarting subscription task after 5000 ms
+12987900 DEBUG [2019-09-29 21:21:00]  Returning cached instance of singleton bean 'sessionRepository'
+12987902 DEBUG [2019-09-29 21:21:00]  Cleaning up sessions expiring at Sun Sep 29 21:21:00 CST 2019
+12987903 DEBUG [2019-09-29 21:21:00]  Opening RedisConnection
+12987904 ERROR [2019-09-29 21:21:00]  Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:132)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:95)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:82)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:211)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:158)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:152)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:132)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:393)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration.lambda$configureTasks$0(RedisHttpSessionConfiguration.java:242)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 21 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused (Connection refused)
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 24 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 31 more
+12991835 DEBUG [2019-09-29 21:21:03]  Started listening for Redis messages
+12991836 ERROR [2019-09-29 21:21:03]  Connection failure occurred. Restarting subscription task after 5000 ms
+12995673 DEBUG [2019-09-29 21:21:07]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12995673 DEBUG [2019-09-29 21:21:07]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12995674 DEBUG [2019-09-29 21:21:07]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+12995674 DEBUG [2019-09-29 21:21:07]  No free connections [{}->http://172.16.49.129:8080][null]
+12995674 DEBUG [2019-09-29 21:21:07]  Available capacity: 50 out of 50 [{}->http://172.16.49.129:8080][null]
+12995674 DEBUG [2019-09-29 21:21:07]  Creating new connection [{}->http://172.16.49.129:8080]
+12995675 DEBUG [2019-09-29 21:21:07]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 1, total allocated: 1 out of 200
+12995675 DEBUG [2019-09-29 21:21:07]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+12995675 DEBUG [2019-09-29 21:21:07]  No free connections [{}->http://172.16.49.129:8080][null]
+12995675 DEBUG [2019-09-29 21:21:07]  Available capacity: 49 out of 50 [{}->http://172.16.49.129:8080][null]
+12995675 DEBUG [2019-09-29 21:21:07]  Creating new connection [{}->http://172.16.49.129:8080]
+12995675 DEBUG [2019-09-29 21:21:07]  Connecting to 172.16.49.129:8080
+12995675 DEBUG [2019-09-29 21:21:07]  Connecting to 172.16.49.129:8080
+12995676 DEBUG [2019-09-29 21:21:07]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 2, total allocated: 2 out of 200
+12995676 DEBUG [2019-09-29 21:21:07]  No free connections [{}->http://172.16.49.129:8080][null]
+12995676 DEBUG [2019-09-29 21:21:07]  Available capacity: 48 out of 50 [{}->http://172.16.49.129:8080][null]
+12995677 DEBUG [2019-09-29 21:21:07]  Creating new connection [{}->http://172.16.49.129:8080]
+12995677 DEBUG [2019-09-29 21:21:07]  Connecting to 172.16.49.129:8080
+12996841 DEBUG [2019-09-29 21:21:08]  Started listening for Redis messages
+12996843 ERROR [2019-09-29 21:21:08]  Connection failure occurred. Restarting subscription task after 5000 ms
+13000687 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@1153ef88 closed
+13000687 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@4590d12f closed
+13000687 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@1691e03f closed
+13000689 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@1691e03f shut down
+13000689 DEBUG [2019-09-29 21:21:12]  Released connection is not reusable.
+13000689 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@1153ef88 shut down
+13000689 DEBUG [2019-09-29 21:21:12]  Released connection is not reusable.
+13000689 DEBUG [2019-09-29 21:21:12]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13000689 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@4590d12f shut down
+13000689 DEBUG [2019-09-29 21:21:12]  Released connection is not reusable.
+13000689 DEBUG [2019-09-29 21:21:12]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13000689 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@1153ef88 closed
+13000689 DEBUG [2019-09-29 21:21:12]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13000690 DEBUG [2019-09-29 21:21:12]  Notifying no-one, there are no waiting threads
+13000690 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@4590d12f closed
+13000690 DEBUG [2019-09-29 21:21:12]  Notifying no-one, there are no waiting threads
+13000690 DEBUG [2019-09-29 21:21:12]  Connection org.apache.http.impl.conn.DefaultClientConnection@1691e03f closed
+13000690 DEBUG [2019-09-29 21:21:12]  Notifying no-one, there are no waiting threads
+13001847 DEBUG [2019-09-29 21:21:13]  Started listening for Redis messages
+13001849 ERROR [2019-09-29 21:21:13]  Connection failure occurred. Restarting subscription task after 5000 ms
+13006849 DEBUG [2019-09-29 21:21:18]  Started listening for Redis messages
+13006851 ERROR [2019-09-29 21:21:18]  Connection failure occurred. Restarting subscription task after 5000 ms
+13007271 DEBUG [2019-09-29 21:21:19]  Closing connections idle longer than -1 SECONDS
+13007271 DEBUG [2019-09-29 21:21:19]  Closing connections idle longer than 0 SECONDS
+13007296 DEBUG [2019-09-29 21:21:19]  Closing connections idle longer than 30000 SECONDS
+13007296 DEBUG [2019-09-29 21:21:19]  Closing connections idle longer than 30000 SECONDS
+13011851 DEBUG [2019-09-29 21:21:23]  Started listening for Redis messages
+13011852 ERROR [2019-09-29 21:21:23]  Connection failure occurred. Restarting subscription task after 5000 ms
+13016854 DEBUG [2019-09-29 21:21:28]  Started listening for Redis messages
+13016855 ERROR [2019-09-29 21:21:28]  Connection failure occurred. Restarting subscription task after 5000 ms
+13021860 DEBUG [2019-09-29 21:21:33]  Started listening for Redis messages
+13021861 ERROR [2019-09-29 21:21:33]  Connection failure occurred. Restarting subscription task after 5000 ms
+13026865 DEBUG [2019-09-29 21:21:38]  Started listening for Redis messages
+13026866 ERROR [2019-09-29 21:21:38]  Connection failure occurred. Restarting subscription task after 5000 ms
+13030712 DEBUG [2019-09-29 21:21:42]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+13030713 DEBUG [2019-09-29 21:21:42]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+13030713 DEBUG [2019-09-29 21:21:42]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+13030713 DEBUG [2019-09-29 21:21:42]  No free connections [{}->http://172.16.49.129:8080][null]
+13030713 DEBUG [2019-09-29 21:21:42]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+13030713 DEBUG [2019-09-29 21:21:42]  Available capacity: 50 out of 50 [{}->http://172.16.49.129:8080][null]
+13030713 DEBUG [2019-09-29 21:21:42]  Creating new connection [{}->http://172.16.49.129:8080]
+13030713 DEBUG [2019-09-29 21:21:42]  Connecting to 172.16.49.129:8080
+13030714 DEBUG [2019-09-29 21:21:42]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 1, total allocated: 1 out of 200
+13030714 DEBUG [2019-09-29 21:21:42]  No free connections [{}->http://172.16.49.129:8080][null]
+13030714 DEBUG [2019-09-29 21:21:42]  Available capacity: 49 out of 50 [{}->http://172.16.49.129:8080][null]
+13030715 DEBUG [2019-09-29 21:21:42]  Creating new connection [{}->http://172.16.49.129:8080]
+13030715 DEBUG [2019-09-29 21:21:42]  Connecting to 172.16.49.129:8080
+13030715 DEBUG [2019-09-29 21:21:42]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 2, total allocated: 2 out of 200
+13030715 DEBUG [2019-09-29 21:21:42]  No free connections [{}->http://172.16.49.129:8080][null]
+13030715 DEBUG [2019-09-29 21:21:42]  Available capacity: 48 out of 50 [{}->http://172.16.49.129:8080][null]
+13030715 DEBUG [2019-09-29 21:21:42]  Creating new connection [{}->http://172.16.49.129:8080]
+13030716 DEBUG [2019-09-29 21:21:42]  Connecting to 172.16.49.129:8080
+13031872 DEBUG [2019-09-29 21:21:43]  Started listening for Redis messages
+13031873 ERROR [2019-09-29 21:21:43]  Connection failure occurred. Restarting subscription task after 5000 ms
+13035718 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@11cf0db closed
+13035718 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@11cf0db shut down
+13035719 DEBUG [2019-09-29 21:21:47]  Released connection is not reusable.
+13035719 DEBUG [2019-09-29 21:21:47]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13035719 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@11cf0db closed
+13035719 DEBUG [2019-09-29 21:21:47]  Notifying no-one, there are no waiting threads
+13035720 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@5c4f42ad closed
+13035720 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@5c3c140a closed
+13035720 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@5c3c140a shut down
+13035721 DEBUG [2019-09-29 21:21:47]  Released connection is not reusable.
+13035721 DEBUG [2019-09-29 21:21:47]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13035720 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@5c4f42ad shut down
+13035721 DEBUG [2019-09-29 21:21:47]  Released connection is not reusable.
+13035721 DEBUG [2019-09-29 21:21:47]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13035721 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@5c3c140a closed
+13035722 DEBUG [2019-09-29 21:21:47]  Notifying no-one, there are no waiting threads
+13035722 DEBUG [2019-09-29 21:21:47]  Connection org.apache.http.impl.conn.DefaultClientConnection@5c4f42ad closed
+13035722 DEBUG [2019-09-29 21:21:47]  Notifying no-one, there are no waiting threads
+13036876 DEBUG [2019-09-29 21:21:48]  Started listening for Redis messages
+13036877 ERROR [2019-09-29 21:21:48]  Connection failure occurred. Restarting subscription task after 5000 ms
+13037274 DEBUG [2019-09-29 21:21:49]  Closing connections idle longer than -1 SECONDS
+13037274 DEBUG [2019-09-29 21:21:49]  Closing connections idle longer than 0 SECONDS
+13037301 DEBUG [2019-09-29 21:21:49]  Closing connections idle longer than 30000 SECONDS
+13037302 DEBUG [2019-09-29 21:21:49]  Closing connections idle longer than 30000 SECONDS
+13041880 DEBUG [2019-09-29 21:21:53]  Started listening for Redis messages
+13041880 ERROR [2019-09-29 21:21:53]  Connection failure occurred. Restarting subscription task after 5000 ms
+13046889 DEBUG [2019-09-29 21:21:59]  Started listening for Redis messages
+13046890 ERROR [2019-09-29 21:21:59]  Connection failure occurred. Restarting subscription task after 5000 ms
+13047891 DEBUG [2019-09-29 21:22:00]  Returning cached instance of singleton bean 'sessionRepository'
+13047892 DEBUG [2019-09-29 21:22:00]  Cleaning up sessions expiring at Sun Sep 29 21:22:00 CST 2019
+13047892 DEBUG [2019-09-29 21:22:00]  Opening RedisConnection
+13047893 ERROR [2019-09-29 21:22:00]  Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:132)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:95)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:82)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:211)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:158)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:152)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:132)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:393)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration.lambda$configureTasks$0(RedisHttpSessionConfiguration.java:242)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 21 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused (Connection refused)
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 24 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 31 more
+13051892 DEBUG [2019-09-29 21:22:04]  Started listening for Redis messages
+13051893 ERROR [2019-09-29 21:22:04]  Connection failure occurred. Restarting subscription task after 5000 ms
+13056897 DEBUG [2019-09-29 21:22:09]  Started listening for Redis messages
+13056899 ERROR [2019-09-29 21:22:09]  Connection failure occurred. Restarting subscription task after 5000 ms
+13061900 DEBUG [2019-09-29 21:22:14]  Started listening for Redis messages
+13061901 ERROR [2019-09-29 21:22:14]  Connection failure occurred. Restarting subscription task after 5000 ms
+13062656 INFO  [2019-09-29 21:22:14]  Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a67e3c6: startup date [Sun Sep 29 17:44:35 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@10e31a9a
+13062712 DEBUG [2019-09-29 21:22:14]  Returning cached instance of singleton bean 'eurekaAutoServiceRegistration'
+13062715 INFO  [2019-09-29 21:22:14]  Unregistering application app-portal-web with eureka with status DOWN
+13062721 DEBUG [2019-09-29 21:22:14]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+13062721 DEBUG [2019-09-29 21:22:14]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+13062721 DEBUG [2019-09-29 21:22:14]  No free connections [{}->http://172.16.49.129:8080][null]
+13062721 DEBUG [2019-09-29 21:22:14]  Available capacity: 50 out of 50 [{}->http://172.16.49.129:8080][null]
+13062721 DEBUG [2019-09-29 21:22:14]  Creating new connection [{}->http://172.16.49.129:8080]
+13062722 DEBUG [2019-09-29 21:22:14]  Connecting to 172.16.49.129:8080
+13062777 DEBUG [2019-09-29 21:22:14]  Returning cached instance of singleton bean 'redisMessageListenerContainer'
+13062777 DEBUG [2019-09-29 21:22:14]  Returning cached instance of singleton bean 'eurekaAutoServiceRegistration'
+13062777 DEBUG [2019-09-29 21:22:14]  Returning cached instance of singleton bean 'lifecycleProcessor'
+13062799 INFO  [2019-09-29 21:22:14]  Stopping beans in phase 2147483647
+13062810 DEBUG [2019-09-29 21:22:14]  Asking bean 'redisMessageListenerContainer' of type [class org.springframework.data.redis.listener.RedisMessageListenerContainer] to stop
+13062821 DEBUG [2019-09-29 21:22:14]  Stopped RedisMessageListenerContainer
+13062822 DEBUG [2019-09-29 21:22:14]  Bean 'redisMessageListenerContainer' completed its stop procedure
+13062822 INFO  [2019-09-29 21:22:14]  Stopping beans in phase 0
+13062824 DEBUG [2019-09-29 21:22:14]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5ba88be8: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appPortalWeb,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,verifyController,xxlSsoConfig,loginController,QQAuthoriController,registerController,indexController,testSessionController,sessionConfig,baseApiService,generateToken,redisDataSoureceTransaction,redisUtil,springContextUtil,xxlSsoFilterRegistration,org.springframework.scheduling.annotation.SchedulingConfiguration,org.springframework.context.annotation.internalScheduledAnnotationProcessor,org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration,sessionRepository,redisMessageListenerContainer,enableRedisKeyspaceNotificationsInitializer,sessionEventHttpSessionListenerAdapter,springSessionRepositoryFilter,connectionFactory,org.springframework.boot.autoconfigure.AutoConfigurationPackages,default.com.ll.AppPortalWeb.FeignClientSpecification,app-member.FeignClientSpecification,com.ll.member.feign.MemberLoginServiceFeign,com.ll.member.feign.MemberRegisterServiceFeign,com.ll.member.feign.QQAuthoriServiceFeign,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration,websocketContainerCustomizer,org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration,org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat,tomcatServletWebServerFactory,org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration,servletWebServerFactoryCustomizer,tomcatServletWebServerFactoryCustomizer,server-org.springframework.boot.autoconfigure.web.ServerProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata,webServerFactoryCustomizerBeanPostProcessor,errorPageRegistrarBeanPostProcessor,org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration,dispatcherServlet,spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties,org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration,dispatcherServletRegistration,org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration,org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration$PropagateEventsConfiguration,org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration,configurableEnvironmentConfiguration,org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration,defaultValidator,methodValidationPostProcessor,org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration,error,beanNameViewResolver,org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration,conventionErrorViewResolver,org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration,errorAttributes,basicErrorController,errorPageCustomizer,preserveErrorControllerTargetClassPostProcessor,spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration,faviconHandlerMapping,faviconRequestHandler,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration,requestMappingHandlerAdapter,requestMappingHandlerMapping,mvcConversionService,mvcValidator,mvcContentNegotiationManager,mvcPathMatcher,mvcUrlPathHelper,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,mvcHandlerMappingIntrospector,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter,defaultViewResolver,viewResolver,welcomePageHandlerMapping,requestContextFilter,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration,hiddenHttpMethodFilter,httpPutFormContentFilter,org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration,mbeanExporter,objectNamingStrategy,mbeanServer,org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration,springApplicationAdminRegistrar,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration,org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration,lettuceClientResources,org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration,org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration,redisTemplate,stringRedisTemplate,spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties,org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration,persistenceExceptionTranslationPostProcessor,org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration,org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration,keyValueMappingContext,redisCustomConversions,redisReferenceResolver,redisConverter,redisKeyValueAdapter,redisKeyValueTemplate,org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration,gsonBuilder,gson,standardGsonBuilderCustomizer,spring.gson-org.springframework.boot.autoconfigure.gson.GsonProperties,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration,standardJacksonObjectMapperBuilderCustomizer,spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration,jacksonObjectMapperBuilder,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration,parameterNamesModule,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration,jacksonObjectMapper,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration,jsonComponentModule,org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration,stringHttpMessageConverter,spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties,org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration,mappingJackson2HttpMessageConverter,org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration,messageConverters,org.springframework.data.web.config.ProjectingArgumentResolverRegistrar,projectingArgumentResolverBeanPostProcessor,org.springframework.data.web.config.SpringDataWebConfiguration,pageableResolver,sortResolver,org.springframework.data.web.config.SpringDataJacksonConfiguration,jacksonGeoModule,org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration,pageableCustomizer,sortCustomizer,spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties,org.springframework.boot.autoconfigure.freemarker.FreeMarkerServletWebConfiguration,freeMarkerConfigurer,freeMarkerConfiguration,freeMarkerViewResolver,org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration,spring.freemarker-org.springframework.boot.autoconfigure.freemarker.FreeMarkerProperties,org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration,jacksonCodecCustomizer,org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration,org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration,spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties,org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker,org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration,dataSourceInitializerPostProcessor,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties,org.springframework.boot.autoconfigure.reactor.core.ReactorCoreAutoConfiguration,spring.reactor-org.springframework.boot.autoconfigure.reactor.core.ReactorCoreProperties,org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration,spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties,org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionRepositoryValidator,org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration,sessionRepositoryFilterRegistration,spring.session-org.springframework.boot.autoconfigure.session.SessionProperties,org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionConfiguration,org.springframework.boot.autoconfigure.session.SessionAutoConfiguration,org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafJava8TimeDialect,java8TimeDialect,org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration,thymeleafViewResolver,org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration,org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration,templateEngine,org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration,defaultTemplateResolver,org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration,spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration,platformTransactionManagerCustomizers,spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties,org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration,restTemplateBuilder,org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration,tomcatWebServerFactoryCustomizer,org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration,org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration,characterEncodingFilter,localeCharsetMappingsCustomizer,org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration,multipartConfigElement,multipartResolver,spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties,org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,configurationPropertiesBeans,configurationPropertiesRebinder,org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$RefreshScopeConfiguration,org.springframework.cloud.autoconfigure.RefreshAutoConfiguration,loggingRebinder,contextRefresher,refreshEventListener,org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration,environmentManager,org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration$EurekaClientConfigurationRefresher,org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration,eurekaDiscoverClientMarker,org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationConfiguration,spring.cloud.service-registry.auto-registration-org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationProperties,org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration,org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration,scopedTarget.eurekaClient,eurekaClient,scopedTarget.eurekaApplicationInfoManager,eurekaApplicationInfoManager,org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration,discoveryClientOptionalArgs,org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration,eurekaFeature,eurekaClientConfigBean,serviceManagementMetadataProvider,eurekaInstanceConfigBean,discoveryClient,eurekaServiceRegistry,eurekaRegistration,eurekaAutoServiceRegistration,org.springframework.cloud.client.CommonsClientAutoConfiguration,org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClientAutoConfiguration,compositeDiscoveryClient,org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration,simpleDiscoveryProperties,simpleDiscoveryClient,org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration,ribbonFeature,springClientFactory,loadBalancerClient,neverRetryPolicyFactory,propertiesFactory,default.org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration.RibbonClientSpecification,ribbon.eager-load-org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties,ribbon-org.springframework.cloud.netflix.ribbon.ServerIntrospectorProperties,org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig,asyncLoadBalancerInterceptor,asyncRestTemplateCustomizer,org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$AsyncRestTemplateCustomizerConfig,loadBalancedAsyncRestTemplateInitializer,org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration,org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig,ribbonInterceptor,restTemplateCustomizer,org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration,loadBalancedRestTemplateInitializerDeprecated,loadBalancerRequestFactory,spring.cloud.loadbalancer.retry-org.springframework.cloud.client.loadbalancer.LoadBalancerRetryProperties,org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration,org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration,connManFactory,apacheHttpClientBuilder,apacheHttpClientFactory,org.springframework.cloud.commons.httpclient.HttpClientConfiguration,org.springframework.cloud.commons.util.UtilAutoConfiguration,inetUtilsProperties,inetUtils,org.springframework.cloud.netflix.ribbon.eureka.RibbonEurekaAutoConfiguration,default.org.springframework.cloud.netflix.ribbon.eureka.RibbonEurekaAutoConfiguration.RibbonClientSpecification,org.springframework.cloud.openfeign.ribbon.DefaultFeignLoadBalancedConfiguration,feignClient,org.springframework.cloud.openfeign.ribbon.FeignRibbonClientAutoConfiguration,cachingLBClientFactory,feignRequestOptions,feign.httpclient-org.springframework.cloud.openfeign.support.FeignHttpClientProperties,org.springframework.cloud.openfeign.FeignAutoConfiguration$HystrixFeignTargeterConfiguration,feignTargeter,org.springframework.cloud.openfeign.FeignAutoConfiguration,feignFeature,feignContext,feign.client-org.springframework.cloud.openfeign.FeignClientProperties,refreshScope]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@c03cf28
+13062831 DEBUG [2019-09-29 21:22:14]  Retrieved dependent beans for bean 'eurekaRegistration': [eurekaAutoServiceRegistration]
+13062832 DEBUG [2019-09-29 21:22:14]  Retrieved dependent beans for bean 'eurekaAutoServiceRegistration': [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration$EurekaClientConfigurationRefresher, org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration]
+13062837 DEBUG [2019-09-29 21:22:14]  Invoking destroy method 'close' on bean with name 'eurekaRegistration'
+13062899 DEBUG [2019-09-29 21:22:15]  Get connection: {}->http://172.16.49.129:8080, timeout = 5000
+13062899 DEBUG [2019-09-29 21:22:15]  [{}->http://172.16.49.129:8080] total kept alive: 0, total issued: 1, total allocated: 1 out of 200
+13062899 DEBUG [2019-09-29 21:22:15]  No free connections [{}->http://172.16.49.129:8080][null]
+13062899 DEBUG [2019-09-29 21:22:15]  Available capacity: 49 out of 50 [{}->http://172.16.49.129:8080][null]
+13062900 DEBUG [2019-09-29 21:22:15]  Creating new connection [{}->http://172.16.49.129:8080]
+13062900 DEBUG [2019-09-29 21:22:15]  Connecting to 172.16.49.129:8080
+13067275 DEBUG [2019-09-29 21:22:19]  Closing connections idle longer than -1 SECONDS
+13067279 DEBUG [2019-09-29 21:22:19]  Closing connections idle longer than 0 SECONDS
+13067303 DEBUG [2019-09-29 21:22:19]  Closing connections idle longer than 30000 SECONDS
+13067303 DEBUG [2019-09-29 21:22:19]  Closing connections idle longer than 30000 SECONDS
+13067725 DEBUG [2019-09-29 21:22:19]  Connection org.apache.http.impl.conn.DefaultClientConnection@170d574b closed
+13067725 DEBUG [2019-09-29 21:22:19]  Connection org.apache.http.impl.conn.DefaultClientConnection@170d574b shut down
+13067726 DEBUG [2019-09-29 21:22:19]  Released connection is not reusable.
+13067726 DEBUG [2019-09-29 21:22:19]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13067726 DEBUG [2019-09-29 21:22:19]  Connection org.apache.http.impl.conn.DefaultClientConnection@170d574b closed
+13067726 DEBUG [2019-09-29 21:22:19]  Notifying no-one, there are no waiting threads
+13067904 DEBUG [2019-09-29 21:22:20]  Connection org.apache.http.impl.conn.DefaultClientConnection@113650fa closed
+13067904 DEBUG [2019-09-29 21:22:20]  Connection org.apache.http.impl.conn.DefaultClientConnection@113650fa shut down
+13067904 DEBUG [2019-09-29 21:22:20]  Released connection is not reusable.
+13067904 DEBUG [2019-09-29 21:22:20]  Releasing connection [{}->http://172.16.49.129:8080][null]
+13067905 DEBUG [2019-09-29 21:22:20]  Connection org.apache.http.impl.conn.DefaultClientConnection@113650fa closed
+13067905 DEBUG [2019-09-29 21:22:20]  Notifying no-one, there are no waiting threads
+13067926 DEBUG [2019-09-29 21:22:20]  Closing connections idle longer than 0 SECONDS
+13067926 DEBUG [2019-09-29 21:22:20]  Closing connections idle longer than 0 SECONDS
+13067926 DEBUG [2019-09-29 21:22:20]  Closing connections idle longer than 0 SECONDS
+13067927 DEBUG [2019-09-29 21:22:20]  Closing connections idle longer than 0 SECONDS
+13067930 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'inetUtils': [eurekaInstanceConfigBean, org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration]
+13067930 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'eurekaInstanceConfigBean': [discoveryClient, scopedTarget.eurekaApplicationInfoManager, scopedTarget.eurekaClient]
+13067930 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'discoveryClient': [compositeDiscoveryClient]
+13067930 DEBUG [2019-09-29 21:22:20]  Invoking destroy method 'close' on bean with name 'inetUtils'
+13067931 DEBUG [2019-09-29 21:22:20]  Invoking destroy method 'close' on bean with name 'eurekaServiceRegistry'
+13067932 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'redisKeyValueTemplate'
+13067932 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'redisKeyValueAdapter'
+13067933 DEBUG [2019-09-29 21:22:20]  Stopped RedisMessageListenerContainer
+13067934 DEBUG [2019-09-29 21:22:20]  Invoking destroy method 'shutdown' on bean with name 'lettuceClientResources'
+13067953 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'springApplicationAdminRegistrar'
+13067955 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'mbeanExporter'
+13067957 INFO  [2019-09-29 21:22:20]  Unregistering JMX-exposed beans on shutdown
+13067959 INFO  [2019-09-29 21:22:20]  Unregistering JMX-exposed beans
+13067959 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'mvcValidator': [requestMappingHandlerAdapter]
+13067959 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
+13067960 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'mvcValidator'
+13067960 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'defaultValidator'
+13067964 DEBUG [2019-09-29 21:22:20]  Invoking destroy method on bean 'org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration': public void org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.close()
+13067968 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'redisMessageListenerContainer'
+13067968 DEBUG [2019-09-29 21:22:20]  Stopped RedisMessageListenerContainer
+13067968 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'springClientFactory': [cachingLBClientFactory, feignClient, loadBalancerClient]
+13067968 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'cachingLBClientFactory': [feignClient]
+13067968 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'loadBalancerClient': [asyncLoadBalancerInterceptor, loadBalancerRequestFactory, ribbonInterceptor]
+13067968 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'asyncLoadBalancerInterceptor': [asyncRestTemplateCustomizer]
+13067968 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'asyncRestTemplateCustomizer': [loadBalancedAsyncRestTemplateInitializer]
+13067968 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'loadBalancerRequestFactory': [ribbonInterceptor]
+13067968 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'ribbonInterceptor': [restTemplateCustomizer]
+13067968 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'springClientFactory'
+13067969 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping]
+13067969 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'feignContext'
+13067970 INFO  [2019-09-29 21:22:20]  Closing FeignContext-app-member: startup date [Sun Sep 29 17:44:40 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a67e3c6
+13067972 WARN  [2019-09-29 21:22:20]  Exception thrown from ApplicationListener handling ContextClosedEvent
 org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:214)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
@@ -124,22 +422,22 @@ org.springframework.beans.factory.BeanCreationNotAllowedException: Error creatin
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017)
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937)
-6914713 DEBUG [2019-09-10 22:25:39]  Returning cached instance of singleton bean 'lifecycleProcessor'
-6914713 DEBUG [2019-09-10 22:25:39]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60990e5c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertyPlaceholderAutoConfiguration,feignClientsConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.cloud.openfeign.FeignClientsConfiguration$HystrixFeignConfiguration,feignDecoder,feignEncoder,feignContract,feignConversionService,feignRetryer,feignBuilder,feignLoggerFactory]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@718607eb
-6914713 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'characterEncodingFilter'
-6914714 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'httpPutFormContentFilter'
-6914714 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'hiddenHttpMethodFilter'
-6914714 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'requestContextFilter'
-6914714 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'connectionFactory': [stringRedisTemplate, redisTemplate]
-6914714 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'stringRedisTemplate': [redisUtil]
-6914714 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'redisUtil': [generateToken]
-6914715 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'redisTemplate': [redisReferenceResolver]
-6914715 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'redisReferenceResolver': [redisConverter]
-6914715 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'connectionFactory'
-6914716 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'xxlSsoConfig'
-6914723 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
-6914723 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'refreshScope': [contextRefresher, eurekaClient, eurekaApplicationInfoManager]
-6914723 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'contextRefresher': [refreshEventListener]
-6914724 DEBUG [2019-09-10 22:25:39]  Invoking destroy() on bean with name 'refreshScope'
-6914724 DEBUG [2019-09-10 22:25:39]  Invoking destroy method on bean 'scopedTarget.eurekaClient': public synchronized void com.netflix.discovery.DiscoveryClient.shutdown()
-6914725 DEBUG [2019-09-10 22:25:39]  Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]
+13067975 DEBUG [2019-09-29 21:22:20]  Returning cached instance of singleton bean 'lifecycleProcessor'
+13067975 DEBUG [2019-09-29 21:22:20]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f446158: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertyPlaceholderAutoConfiguration,feignClientsConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.cloud.openfeign.FeignClientsConfiguration$HystrixFeignConfiguration,feignDecoder,feignEncoder,feignContract,feignConversionService,feignRetryer,feignBuilder,feignLoggerFactory]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@5ba88be8
+13067975 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'characterEncodingFilter'
+13067975 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'httpPutFormContentFilter'
+13067975 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'hiddenHttpMethodFilter'
+13067975 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'requestContextFilter'
+13067975 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'connectionFactory': [stringRedisTemplate, redisTemplate]
+13067976 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'stringRedisTemplate': [redisUtil]
+13067976 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'redisUtil': [generateToken]
+13067976 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'redisTemplate': [redisReferenceResolver]
+13067976 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'redisReferenceResolver': [redisConverter]
+13067976 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'connectionFactory'
+13067976 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'xxlSsoConfig'
+13067978 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+13067979 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'refreshScope': [contextRefresher, eurekaClient, eurekaApplicationInfoManager]
+13067979 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'contextRefresher': [refreshEventListener]
+13067979 DEBUG [2019-09-29 21:22:20]  Invoking destroy() on bean with name 'refreshScope'
+13067980 DEBUG [2019-09-29 21:22:20]  Invoking destroy method on bean 'scopedTarget.eurekaClient': public synchronized void com.netflix.discovery.DiscoveryClient.shutdown()
+13067980 DEBUG [2019-09-29 21:22:20]  Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]

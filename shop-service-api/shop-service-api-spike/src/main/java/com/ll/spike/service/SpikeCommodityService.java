@@ -20,4 +20,15 @@ public interface SpikeCommodityService {
      */
     @RequestMapping("/spike")
     BaseResponse<JSONObject> spike(String phone, Long seckillId);
+
+    /**
+     * 增加商品库存令牌桶
+     *
+     * @param seckillId
+     * @param tokenQuantity
+     * @return
+     */
+    @RequestMapping("/addSpikeToken")
+    BaseResponse<JSONObject> addSpikeToken(Long seckillId, Long tokenQuantity);
+
 }

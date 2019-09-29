@@ -38,7 +38,7 @@ xxl:
       path: /logout
     redis:
       address: redis://127.0.0.1:6379
-    server: http://xxlssoserver.com:8080/xxl-sso-server
+    server: http://xxlssoserver.com:8200/xxl-sso-server
 xxl-sso:
   excluded:
     paths:
